@@ -2,131 +2,104 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
-#define MAX_LINES 1000
-#define MAX_LEN 100
+#define MAX_LINE 2048
 
-// ------------------------------
-// Threat severity scoring
-// ------------------------------
-int threat_score(char *line) {
-    if (strstr(line, "FAILED_LOGIN")) return 1;
-    if (strstr(line, "PORT_SCAN")) return 3;
-    if (strstr(line, "MALWARE_ALERT")) return 5;
-    if (strstr(line, "DDOS_ATTACK")) return 10;
-    return 0;
+// Convert string to lowercase
+void to_lowercase(char *str) {
+    for (int i = 0; str[i]; i++) {
+        str[i] = tolower(str[i]);
+    }
+}
+
+// Dynamic keyword-based threat scoring
+int calculate_threat_score(char *line) {
+    int score = 0;
+
+    if (strstr(line, "failed")) score += 2;
+    if (strstr(line, "brute")) score += 5;
+    if (strstr(line, "sql")) score += 8;
+    if (strstr(line, "xss")) score += 7;
+    if (strstr(line, "malware")) score += 10;
+    if (strstr(line, "unauthorized")) score += 6;
+    if (strstr(line, "ddos")) score += 9;
+    if (strstr(line, "phishing")) score += 5;
+    if (strstr(line, "error")) score += 1;
+    if (strstr(line, "attack")) score += 4;
+
+    return score;
 }
 
 int main(int argc, char *argv[]) {
 
-    MPI_Init(&argc, &argv);
-
     int rank, size;
+    MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
+    if (argc < 2) {
+        if (rank == 0)
+            printf("Usage: ./mpi_log_analyzer <logfile>\n");
+        MPI_Finalize();
+        return 0;
+    }
+
+    FILE *file = fopen(argv[1], "r");
+    if (!file) {
+        if (rank == 0)
+            printf("Error opening file.\n");
+        MPI_Finalize();
+        return 0;
+    }
+
+    int total_logs = 0;
+    char line[MAX_LINE];
+
+    // First pass: count total logs
+    while (fgets(line, MAX_LINE, file) != NULL) {
+        total_logs++;
+    }
+
+    rewind(file);  // Go back to start of file
+
+    MPI_Barrier(MPI_COMM_WORLD);
     double start_time = MPI_Wtime();
 
-    char logs[MAX_LINES][MAX_LEN];
-    int total_lines = 0;
+    int logs_per_process = total_logs / size;
+    int remainder = total_logs % size;
 
-    // ------------------------------
-    // Master reads file
-    // ------------------------------
-    if (rank == 0) {
+    int start = rank * logs_per_process + (rank < remainder ? rank : remainder);
+    int end = start + logs_per_process + (rank < remainder ? 1 : 0);
 
-        if (argc < 2) {
-    if (rank == 0)
-        printf("Usage: mpirun -np <num> ./mpi_log_analyzer <filename>\n");
-    MPI_Finalize();
-    return 1;
-}
+    int current_line = 0;
+    int local_score = 0;
 
-FILE *file = fopen(argv[1], "r");
+    // Second pass: process only assigned lines
+    while (fgets(line, MAX_LINE, file) != NULL) {
 
-        if (file == NULL) {
-            printf("Error opening file.\n");
-            MPI_Abort(MPI_COMM_WORLD, 1);
+        if (current_line >= start && current_line < end) {
+            to_lowercase(line);
+            local_score += calculate_threat_score(line);
         }
 
-        while (fgets(logs[total_lines], MAX_LEN, file)) {
-            total_lines++;
-        }
-
-        fclose(file);
-
-        printf("Total logs read: %d\n", total_lines);
+        current_line++;
     }
 
-    // ------------------------------
-    // Broadcast total_lines to all processes
-    // ------------------------------
-    MPI_Bcast(&total_lines, 1, MPI_INT, 0, MPI_COMM_WORLD);
+    fclose(file);
 
-    // Handle uneven distribution
-    int lines_per_process = total_lines / size;
-    int remainder = total_lines % size;
+    printf("Process %d Local Threat Score: %d\n", rank, local_score);
 
-    if (rank == 0 && remainder != 0) {
-        printf("Warning: Some logs will be ignored due to uneven division.\n");
-    }
+    int global_score = 0;
 
-    char local_logs[MAX_LINES][MAX_LEN];
+    MPI_Reduce(&local_score, &global_score, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
 
-    // ------------------------------
-    // Non-blocking Scatter
-    // ------------------------------
-    MPI_Request scatter_request;
-
-    MPI_Iscatter(logs,
-                 lines_per_process * MAX_LEN,
-                 MPI_CHAR,
-                 local_logs,
-                 lines_per_process * MAX_LEN,
-                 MPI_CHAR,
-                 0,
-                 MPI_COMM_WORLD,
-                 &scatter_request);
-
-    MPI_Wait(&scatter_request, MPI_STATUS_IGNORE);
-
-    // ------------------------------
-    // Local computation
-    // ------------------------------
-    int local_threat_score = 0;
-
-    for (int i = 0; i < lines_per_process; i++) {
-        local_threat_score += threat_score(local_logs[i]);
-    }
-
-    printf("Process %d Local Threat Score: %d\n",
-           rank, local_threat_score);
-
-    // ------------------------------
-    // Non-blocking Reduce
-    // ------------------------------
-    int global_threat_score = 0;
-    MPI_Request reduce_request;
-
-    MPI_Ireduce(&local_threat_score,
-                &global_threat_score,
-                1,
-                MPI_INT,
-                MPI_SUM,
-                0,
-                MPI_COMM_WORLD,
-                &reduce_request);
-
-    MPI_Wait(&reduce_request, MPI_STATUS_IGNORE);
-
-    // ------------------------------
-    // Master prints final result
-    // ------------------------------
     double end_time = MPI_Wtime();
 
     if (rank == 0) {
         printf("\n==============================\n");
-        printf("GLOBAL THREAT SCORE: %d\n", global_threat_score);
+        printf("Total logs read: %d\n", total_logs);
+        printf("GLOBAL THREAT SCORE: %d\n", global_score);
         printf("Execution Time: %f seconds\n", end_time - start_time);
         printf("==============================\n");
     }

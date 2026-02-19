@@ -1,0 +1,56 @@
+[
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 100,
+        "global_threat_score": 556,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 556.0,
+        "execution_time": 0.076535,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 117
+            },
+            {
+                "process_id": 2,
+                "score": 123
+            },
+            {
+                "process_id": 3,
+                "score": 154
+            },
+            {
+                "process_id": 1,
+                "score": 162
+            }
+        ],
+        "timestamp": "2026-02-19 16:39:27"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 8,
+        "global_threat_score": 27,
+        "threat_level": "HIGH",
+        "threat_percentage": 337.5,
+        "execution_time": 0.118644,
+        "process_wise_scores": [
+            {
+                "process_id": 2,
+                "score": 12
+            },
+            {
+                "process_id": 0,
+                "score": 2
+            },
+            {
+                "process_id": 3,
+                "score": 13
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            }
+        ],
+        "timestamp": "2026-02-19 16:41:34"
+    }
+]
