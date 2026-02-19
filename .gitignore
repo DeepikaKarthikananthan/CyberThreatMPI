@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Uploads
+uploads/
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MPI executable
+mpi_log_analyzer
