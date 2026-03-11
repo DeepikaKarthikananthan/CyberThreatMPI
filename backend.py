@@ -83,14 +83,22 @@ async def analyze_file(file: UploadFile = File(...)):
         shutil.copyfileobj(file.file, buffer)
 
     # Run MPI Program
+    # command = [
+    #     "mpirun",
+    #     "--oversubscribe",
+    #     "-np",
+    #     "4",
+    #     "./mpi_log_analyzer",
+    #     file_path
+    # ]
     command = [
-        "mpirun",
-        "--oversubscribe",
-        "-np",
-        "4",
-        "./mpi_log_analyzer",
-        file_path
-    ]
+    "mpirun",
+    "--oversubscribe",
+    "-np", "4",
+    "--mca", "btl_vader_single_copy_mechanism", "none",
+    "./mpi_log_analyzer",
+    file_path
+]
 
     result = subprocess.run(command, capture_output=True, text=True)
 

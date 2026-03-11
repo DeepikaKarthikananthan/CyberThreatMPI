@@ -100,7 +100,8 @@ int main(int argc, char *argv[]) {
         printf("\n==============================\n");
         printf("Total logs read: %d\n", total_logs);
         printf("GLOBAL THREAT SCORE: %d\n", global_score);
-        printf("Execution Time: %f seconds\n", end_time - start_time);
+        // printf("Execution Time: %f seconds\n", end_time - start_time);
+        printf("Execution Time: %.3f\n", end_time - start_time);
         printf("==============================\n");
     }
 

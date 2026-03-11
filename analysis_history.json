@@ -52,5 +52,356 @@
             }
         ],
         "timestamp": "2026-02-19 16:41:34"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 200,
+        "global_threat_score": 1106,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 553.0,
+        "execution_time": 0.001,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 339
+            },
+            {
+                "process_id": 1,
+                "score": 260
+            },
+            {
+                "process_id": 2,
+                "score": 237
+            },
+            {
+                "process_id": 3,
+                "score": 270
+            }
+        ],
+        "timestamp": "2026-03-10 17:16:04"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 100,
+        "global_threat_score": 593,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 593.0,
+        "execution_time": 0.001,
+        "process_wise_scores": [
+            {
+                "process_id": 1,
+                "score": 131
+            },
+            {
+                "process_id": 0,
+                "score": 138
+            },
+            {
+                "process_id": 2,
+                "score": 166
+            },
+            {
+                "process_id": 3,
+                "score": 158
+            }
+        ],
+        "timestamp": "2026-03-10 17:16:45"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 100,
+        "global_threat_score": 593,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 593.0,
+        "execution_time": 0.002,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 138
+            },
+            {
+                "process_id": 2,
+                "score": 166
+            },
+            {
+                "process_id": 3,
+                "score": 158
+            },
+            {
+                "process_id": 1,
+                "score": 131
+            }
+        ],
+        "timestamp": "2026-03-10 17:18:41"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 100,
+        "global_threat_score": 556,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 556.0,
+        "execution_time": 0.001,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 117
+            },
+            {
+                "process_id": 2,
+                "score": 123
+            },
+            {
+                "process_id": 1,
+                "score": 162
+            },
+            {
+                "process_id": 3,
+                "score": 154
+            }
+        ],
+        "timestamp": "2026-03-10 17:18:51"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 100,
+        "global_threat_score": 556,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 556.0,
+        "execution_time": 0.003,
+        "process_wise_scores": [
+            {
+                "process_id": 1,
+                "score": 162
+            },
+            {
+                "process_id": 2,
+                "score": 123
+            },
+            {
+                "process_id": 0,
+                "score": 117
+            },
+            {
+                "process_id": 3,
+                "score": 154
+            }
+        ],
+        "timestamp": "2026-03-10 17:18:54"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 300,
+        "global_threat_score": 1667,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 555.67,
+        "execution_time": 0.003,
+        "process_wise_scores": [
+            {
+                "process_id": 1,
+                "score": 460
+            },
+            {
+                "process_id": 3,
+                "score": 382
+            },
+            {
+                "process_id": 0,
+                "score": 408
+            },
+            {
+                "process_id": 2,
+                "score": 417
+            }
+        ],
+        "timestamp": "2026-03-10 17:19:21"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 500,
+        "global_threat_score": 2714,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 542.8,
+        "execution_time": 0.005,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 668
+            },
+            {
+                "process_id": 1,
+                "score": 651
+            },
+            {
+                "process_id": 3,
+                "score": 651
+            },
+            {
+                "process_id": 2,
+                "score": 744
+            }
+        ],
+        "timestamp": "2026-03-10 17:20:11"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 500,
+        "global_threat_score": 2714,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 542.8,
+        "execution_time": 0.002,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 668
+            },
+            {
+                "process_id": 3,
+                "score": 651
+            },
+            {
+                "process_id": 1,
+                "score": 651
+            },
+            {
+                "process_id": 2,
+                "score": 744
+            }
+        ],
+        "timestamp": "2026-03-10 17:24:20"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 200,
+        "global_threat_score": 1128,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 564.0,
+        "execution_time": 0.001,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 274
+            },
+            {
+                "process_id": 1,
+                "score": 311
+            },
+            {
+                "process_id": 2,
+                "score": 290
+            },
+            {
+                "process_id": 3,
+                "score": 253
+            }
+        ],
+        "timestamp": "2026-03-10 17:25:11"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 300,
+        "global_threat_score": 1669,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 556.33,
+        "execution_time": 0.001,
+        "process_wise_scores": [
+            {
+                "process_id": 3,
+                "score": 445
+            },
+            {
+                "process_id": 0,
+                "score": 366
+            },
+            {
+                "process_id": 1,
+                "score": 429
+            },
+            {
+                "process_id": 2,
+                "score": 429
+            }
+        ],
+        "timestamp": "2026-03-11 08:48:18"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 300,
+        "global_threat_score": 1669,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 556.33,
+        "execution_time": 0.002,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 366
+            },
+            {
+                "process_id": 1,
+                "score": 429
+            },
+            {
+                "process_id": 2,
+                "score": 429
+            },
+            {
+                "process_id": 3,
+                "score": 445
+            }
+        ],
+        "timestamp": "2026-03-11 09:19:11"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 300,
+        "global_threat_score": 1669,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 556.33,
+        "execution_time": 0.003,
+        "process_wise_scores": [
+            {
+                "process_id": 2,
+                "score": 429
+            },
+            {
+                "process_id": 1,
+                "score": 429
+            },
+            {
+                "process_id": 3,
+                "score": 445
+            },
+            {
+                "process_id": 0,
+                "score": 366
+            }
+        ],
+        "timestamp": "2026-03-11 09:44:38"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 100,
+        "global_threat_score": 556,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 556.0,
+        "execution_time": 0.001,
+        "process_wise_scores": [
+            {
+                "process_id": 1,
+                "score": 162
+            },
+            {
+                "process_id": 2,
+                "score": 123
+            },
+            {
+                "process_id": 3,
+                "score": 154
+            },
+            {
+                "process_id": 0,
+                "score": 117
+            }
+        ],
+        "timestamp": "2026-03-11 09:45:40"
     }
 ]
