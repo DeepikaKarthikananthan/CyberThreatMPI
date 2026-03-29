@@ -6,7 +6,8 @@ import {
   ScatterChart, Scatter, ZAxis, Legend
 } from "recharts";
 import "./Analytics.css";
-
+import { useMpiConfig, useApiConfig, useThresholds, useClassifyThreat } from './Settingscontext';
+           // → classify(score) uses live thresholds
 // ─── Data ────────────────────────────────────────────────────────────────────
 const RISK_TIMELINE = Array.from({ length: 31 }, (_, i) => ({
   day: String(i).padStart(2, "0"),
@@ -278,7 +279,7 @@ export default function Analytics() {
   const [sortCol,      setSortCol]      = useState("id");
   const [sortDir,      setSortDir]      = useState("asc");
   const [selectedVector, setSelectedVector] = useState(null);
-
+  const { processors } = useMpiConfig();
   const filtered = DRILL_DATA.filter(d => {
     const matchSearch = d.id.toLowerCase().includes(drillSearch.toLowerCase()) ||
       d.vector.toLowerCase().includes(drillSearch.toLowerCase()) ||

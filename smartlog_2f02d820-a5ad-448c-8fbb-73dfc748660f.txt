@@ -1,0 +1,200 @@
+2026-03-19T02:28:23+00:00 | 192.168.1.0 | GET /dashboard | port=443 | status=403 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /dashboard -> 403 (sev=high) suspicious-response=403
+2026-03-19T08:42:16+00:00 | 192.168.1.0 | PUT /api/users | port=80 | status=504 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/users -> 504 (sev=high) noise:gt01
+2026-03-19T10:55:28+00:00 | 192.168.1.0 | DELETE /api/orders | port=443 | status=504 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/orders -> 504 (sev=low)
+2026-03-20T21:14:06+00:00 | 192.168.1.0 | PATCH /api/search | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/search?q=billion -> 200 (sev=high) noise:qk98
+2026-03-19T13:58:12+00:00 | 192.168.1.0 | PATCH /api/users | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/users -> 200 (sev=medium) noise:es24
+2026-03-20T05:36:59+00:00 | 192.168.1.0 | GET /api/search | port=443 | status=502 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/search?q=series -> 502 (sev=high) suspicious-response=502
+2026-03-19T06:57:25+00:00 | 192.168.1.0 | GET /api/auth | port=443 | status=504 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/auth -> 504 (sev=medium) noise:zi27
+2026-03-19T17:42:48+00:00 | 192.168.1.0 | GET /dashboard | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /dashboard -> 200 (sev=high) noise:wa27
+2026-03-20T07:24:14+00:00 | 192.168.1.0 | DELETE /status | port=443 | status=401 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /status -> 401 (sev=medium)
+2026-03-19T00:59:14+00:00 | 192.168.1.0 | POST /dashboard | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /dashboard -> 200 (sev=medium)
+2026-03-20T04:08:25+00:00 | 192.168.1.0 | PUT /dashboard | port=443 | status=302 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /dashboard -> 302 (sev=high)
+2026-03-20T11:39:28+00:00 | 192.168.1.0 | PUT /admin | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /admin -> 200 (sev=medium) noise:qf82
+2026-03-20T21:35:30+00:00 | 192.168.1.0 | PATCH /settings | port=80 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /settings -> 500 (sev=high) suspicious-response=500
+2026-03-19T18:09:29+00:00 | 192.168.1.0 | POST /admin | port=443 | status=302 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /admin -> 302 (sev=high)
+2026-03-19T21:27:05+00:00 | 192.168.1.0 | PATCH /api/orders | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/orders -> 200 (sev=high)
+2026-03-20T07:12:15+00:00 | 192.168.1.0 | PATCH /status | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /status -> 200 (sev=medium)
+2026-03-19T12:06:15+00:00 | 192.168.1.0 | POST /api/auth | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/auth -> 200 (sev=high) suspicious-response=200
+2026-03-19T05:27:26+00:00 | 192.168.1.0 | GET /api/search | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/search?q=value -> 200 (sev=medium)
+2026-03-20T06:50:46+00:00 | 192.168.1.0 | GET /api/orders | port=80 | status=204 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/orders -> 204 (sev=low)
+2026-03-19T01:00:27+00:00 | 192.168.1.0 | PATCH /api/users | port=80 | status=403 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/users -> 403 (sev=high)
+2026-03-19T18:32:43+00:00 | 192.168.1.0 | POST /settings | port=443 | status=502 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /settings -> 502 (sev=high)
+2026-03-19T04:44:59+00:00 | 192.168.1.0 | PATCH /api/search | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/search?q=nor -> 200 (sev=high)
+2026-03-19T11:30:06+00:00 | 192.168.1.0 | PATCH /dashboard | port=443 | status=403 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /dashboard -> 403 (sev=high) noise:yv80 suspicious-response=403
+2026-03-19T12:26:48+00:00 | 192.168.1.0 | DELETE /status | port=443 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /status -> 404 (sev=high) suspicious-response=404
+2026-03-20T23:40:54+00:00 | 192.168.1.0 | POST / | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST / -> 200 (sev=medium) noise:tk99
+2026-03-19T11:09:12+00:00 | 192.168.1.0 | PUT /api/search | port=80 | status=201 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/search?q=long -> 201 (sev=medium)
+2026-03-19T15:16:33+00:00 | 192.168.1.0 | PATCH / | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH / -> 200 (sev=medium)
+2026-03-20T18:43:08+00:00 | 192.168.1.0 | POST / | port=80 | status=403 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST / -> 403 (sev=high)
+2026-03-19T21:03:33+00:00 | 192.168.1.0 | PATCH /admin | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /admin -> 200 (sev=high) noise:vo26
+2026-03-19T19:00:03+00:00 | 192.168.1.0 | GET /settings | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /settings -> 200 (sev=high)
+2026-03-20T13:19:10+00:00 | 192.168.1.0 | PUT /api/orders | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 200 (sev=high)
+2026-03-20T09:04:41+00:00 | 192.168.1.0 | DELETE /api/orders | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/orders -> 200 (sev=medium)
+2026-03-19T05:13:53+00:00 | 192.168.1.0 | PUT /api/users | port=443 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/users -> 400 (sev=high) suspicious-response=400
+2026-03-19T09:06:41+00:00 | 192.168.1.0 | DELETE /login | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /login -> 200 (sev=high)
+2026-03-20T09:25:01+00:00 | 192.168.1.0 | DELETE /dashboard | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /dashboard -> 200 (sev=high)
+2026-03-20T00:25:14+00:00 | 192.168.1.0 | PUT /admin | port=443 | status=200 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /admin -> 200 (sev=low)
+2026-03-19T10:10:28+00:00 | 192.168.1.0 | DELETE /api/users | port=443 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/users -> 301 (sev=high) noise:xq36 suspicious-response=301
+2026-03-20T02:31:50+00:00 | 192.168.1.0 | GET /api/auth | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/auth -> 200 (sev=high)
+2026-03-20T03:05:38+00:00 | 192.168.1.0 | DELETE / | port=443 | status=201 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE / -> 201 (sev=high) noise:rx47
+2026-03-19T22:44:49+00:00 | 192.168.1.0 | PATCH /api/auth | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/auth -> 200 (sev=high) noise:ex75
+2026-03-20T00:00:50+00:00 | 192.168.1.0 | PUT /dashboard | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /dashboard -> 200 (sev=high)
+2026-03-19T10:17:18+00:00 | 192.168.1.0 | GET /api/orders | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/orders -> 200 (sev=high)
+2026-03-20T14:26:23+00:00 | 192.168.1.0 | PUT /api/users | port=80 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/users -> 404 (sev=high) noise:gw08 suspicious-response=404
+2026-03-20T02:20:12+00:00 | 192.168.1.0 | GET /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /status -> 200 (sev=high)
+2026-03-19T18:26:35+00:00 | 192.168.1.0 | GET /api/users | port=443 | status=200 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/users -> 200 (sev=low)
+2026-03-19T16:24:14+00:00 | 192.168.1.0 | PUT /api/search | port=80 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/search?q=ago -> 404 (sev=high)
+2026-03-19T04:07:53+00:00 | 192.168.1.0 | PUT /api/orders | port=80 | status=502 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 502 (sev=high)
+2026-03-20T14:22:29+00:00 | 192.168.1.0 | POST /status | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /status -> 200 (sev=high) noise:sq35
+2026-03-19T04:36:23+00:00 | 192.168.1.0 | GET /admin | port=80 | status=503 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /admin -> 503 (sev=high) suspicious-response=503
+2026-03-20T16:17:54+00:00 | 192.168.1.0 | POST /status | port=443 | status=302 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /status -> 302 (sev=high)
+2026-03-20T03:13:34+00:00 | 192.168.1.0 | DELETE /login | port=443 | status=404 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /login -> 404 (sev=medium)
+2026-03-19T22:49:00+00:00 | 192.168.1.0 | POST /api/orders | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/orders -> 200 (sev=high) noise:hi89
+2026-03-19T03:11:07+00:00 | 192.168.1.0 | PUT /status | port=80 | status=503 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /status -> 503 (sev=high) noise:lm46 suspicious-response=503
+2026-03-20T23:43:25+00:00 | 192.168.1.0 | PUT /api/auth | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/auth -> 200 (sev=high)
+2026-03-19T16:24:16+00:00 | 192.168.1.0 | PATCH /api/orders | port=443 | status=504 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/orders -> 504 (sev=high)
+2026-03-20T02:02:13+00:00 | 192.168.1.0 | POST / | port=80 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST / -> 301 (sev=high) suspicious-response=301
+2026-03-20T17:49:17+00:00 | 192.168.1.0 | PATCH /dashboard | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /dashboard -> 200 (sev=medium)
+2026-03-20T04:28:57+00:00 | 192.168.1.0 | PUT /api/auth | port=80 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/auth -> 301 (sev=high) suspicious-response=301
+2026-03-20T05:40:42+00:00 | 192.168.1.0 | PUT /api/auth | port=80 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/auth -> 301 (sev=high)
+2026-03-19T07:27:31+00:00 | 192.168.1.0 | GET / | port=80 | status=503 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET / -> 503 (sev=high) suspicious-response=503
+2026-03-19T16:06:17+00:00 | 192.168.1.0 | PATCH /settings | port=443 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /settings -> 301 (sev=high)
+2026-03-19T10:50:25+00:00 | 192.168.1.0 | PUT /api/orders | port=443 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 404 (sev=high) noise:pz93 suspicious-response=404
+2026-03-20T15:08:29+00:00 | 192.168.1.0 | GET /api/auth | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/auth -> 200 (sev=high)
+2026-03-20T07:35:21+00:00 | 192.168.1.0 | PATCH /api/auth | port=80 | status=504 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/auth -> 504 (sev=medium) noise:ws13
+2026-03-19T04:37:41+00:00 | 192.168.1.0 | POST /login | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /login -> 200 (sev=high) suspicious-response=200
+2026-03-20T04:34:44+00:00 | 192.168.1.0 | GET / | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET / -> 200 (sev=high)
+2026-03-20T09:51:08+00:00 | 192.168.1.0 | PUT /api/orders | port=443 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 400 (sev=high) suspicious-response=400
+2026-03-20T05:38:05+00:00 | 192.168.1.0 | PATCH /api/orders | port=80 | status=400 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/orders -> 400 (sev=medium)
+2026-03-19T08:10:27+00:00 | 192.168.1.0 | PATCH /dashboard | port=80 | status=403 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /dashboard -> 403 (sev=high)
+2026-03-19T10:47:06+00:00 | 192.168.1.0 | DELETE /api/auth | port=443 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/auth -> 400 (sev=high)
+2026-03-19T17:33:37+00:00 | 192.168.1.0 | PUT /settings | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /settings -> 200 (sev=high) suspicious-response=200
+2026-03-19T06:32:29+00:00 | 192.168.1.0 | PUT / | port=443 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT / -> 400 (sev=high)
+2026-03-19T23:12:29+00:00 | 192.168.1.0 | PATCH /api/search | port=80 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/search?q=decision -> 500 (sev=high) noise:ee14 suspicious-response=500
+2026-03-19T15:57:19+00:00 | 192.168.1.0 | PUT /status | port=80 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /status -> 404 (sev=high)
+2026-03-20T08:20:30+00:00 | 192.168.1.0 | POST /api/auth | port=80 | status=201 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/auth -> 201 (sev=high)
+2026-03-19T08:39:28+00:00 | 192.168.1.0 | POST /login | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /login -> 200 (sev=medium)
+2026-03-19T14:17:05+00:00 | 192.168.1.0 | GET /admin | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /admin -> 200 (sev=medium)
+2026-03-20T07:23:22+00:00 | 192.168.1.0 | PUT /api/auth | port=443 | status=502 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/auth -> 502 (sev=high)
+2026-03-19T03:32:54+00:00 | 192.168.1.0 | PATCH /api/search | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/search?q=even -> 200 (sev=medium) noise:pj03
+2026-03-19T21:46:02+00:00 | 192.168.1.0 | PUT /api/auth | port=80 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/auth -> 404 (sev=high) noise:cj31
+2026-03-20T13:39:09+00:00 | 192.168.1.0 | GET /api/orders | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/orders -> 200 (sev=high)
+2026-03-19T16:07:15+00:00 | 192.168.1.0 | PUT /api/users | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/users -> 200 (sev=medium)
+2026-03-19T13:53:25+00:00 | 192.168.1.0 | GET /api/users | port=443 | status=403 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/users -> 403 (sev=high)
+2026-03-20T13:20:23+00:00 | 192.168.1.0 | GET /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /status -> 200 (sev=high)
+2026-03-20T20:19:36+00:00 | 192.168.1.0 | GET /status | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /status -> 200 (sev=high)
+2026-03-20T10:07:30+00:00 | 192.168.1.0 | PATCH /api/orders | port=443 | status=500 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/orders -> 500 (sev=medium)
+2026-03-20T02:37:57+00:00 | 192.168.1.0 | PATCH /admin | port=80 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /admin -> 500 (sev=high) suspicious-response=500
+2026-03-20T03:36:38+00:00 | 192.168.1.0 | POST /api/users | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/users -> 200 (sev=high) suspicious-response=200
+2026-03-19T14:16:19+00:00 | 192.168.1.0 | GET /admin | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /admin -> 200 (sev=high)
+2026-03-19T20:56:18+00:00 | 192.168.1.0 | DELETE /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /status -> 200 (sev=high) noise:sb02 suspicious-response=200
+2026-03-20T02:27:23+00:00 | 192.168.1.0 | POST /settings | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /settings -> 200 (sev=high) suspicious-response=200
+2026-03-20T19:10:06+00:00 | 192.168.1.0 | PATCH /api/users | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/users -> 200 (sev=high) suspicious-response=200
+2026-03-19T19:11:12+00:00 | 192.168.1.0 | GET /api/auth | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/auth -> 200 (sev=high)
+2026-03-19T18:27:34+00:00 | 192.168.1.0 | PUT / | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT / -> 200 (sev=high) suspicious-response=200
+2026-03-20T09:23:04+00:00 | 192.168.1.0 | POST /api/auth | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/auth -> 200 (sev=high) noise:vc26
+2026-03-19T11:45:57+00:00 | 192.168.1.0 | PATCH /admin | port=443 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /admin -> 301 (sev=high) noise:ii11 suspicious-response=301
+2026-03-19T09:05:03+00:00 | 192.168.1.0 | POST /api/search | port=443 | status=503 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/search?q=attorney -> 503 (sev=high)
+2026-03-20T20:48:40+00:00 | 192.168.1.0 | POST /api/search | port=443 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/search?q=in -> 500 (sev=high) suspicious-response=500
+2026-03-20T00:08:56+00:00 | 192.168.1.0 | POST /admin | port=443 | status=200 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /admin -> 200 (sev=low) noise:zr35
+2026-03-19T03:47:19+00:00 | 192.168.1.0 | POST /api/users | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/users -> 200 (sev=high) noise:hq73
+2026-03-19T18:06:39+00:00 | 192.168.1.0 | PATCH /dashboard | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /dashboard -> 200 (sev=high) suspicious-response=200
+2026-03-19T20:25:15+00:00 | 192.168.1.0 | DELETE /admin | port=80 | status=429 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /admin -> 429 (sev=high) noise:sz89
+2026-03-20T09:11:43+00:00 | 192.168.1.0 | DELETE /api/auth | port=443 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/auth -> 400 (sev=high)
+2026-03-19T17:50:24+00:00 | 192.168.1.0 | POST / | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST / -> 200 (sev=high)
+2026-03-19T08:15:59+00:00 | 192.168.1.0 | PUT /api/auth | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/auth -> 200 (sev=high) suspicious-response=200
+2026-03-20T16:56:31+00:00 | 192.168.1.0 | DELETE /api/users | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/users -> 200 (sev=high)
+2026-03-19T17:55:37+00:00 | 192.168.1.0 | GET /api/search | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/search?q=might -> 200 (sev=medium)
+2026-03-20T00:54:58+00:00 | 192.168.1.0 | PUT /api/search | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/search?q=drop -> 200 (sev=high)
+2026-03-20T00:09:50+00:00 | 192.168.1.0 | GET /api/auth | port=443 | status=302 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/auth -> 302 (sev=high)
+2026-03-20T09:02:51+00:00 | 192.168.1.0 | PATCH /settings | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /settings -> 200 (sev=medium)
+2026-03-20T16:24:09+00:00 | 192.168.1.0 | PUT /api/users | port=80 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/users -> 400 (sev=high) noise:sf82
+2026-03-20T01:25:53+00:00 | 192.168.1.0 | GET /login | port=443 | status=201 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /login -> 201 (sev=high)
+2026-03-20T04:58:30+00:00 | 192.168.1.0 | GET /status | port=80 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /status -> 301 (sev=high) noise:rp54
+2026-03-20T02:33:16+00:00 | 192.168.1.0 | GET /login | port=443 | status=204 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /login -> 204 (sev=low)
+2026-03-19T20:30:28+00:00 | 192.168.1.0 | DELETE /api/users | port=443 | status=401 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/users -> 401 (sev=high)
+2026-03-20T06:41:37+00:00 | 192.168.1.0 | GET /api/auth | port=80 | status=204 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/auth -> 204 (sev=high)
+2026-03-20T04:30:58+00:00 | 192.168.1.0 | DELETE /settings | port=443 | status=401 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /settings -> 401 (sev=low)
+2026-03-20T04:13:41+00:00 | 192.168.1.0 | DELETE /api/orders | port=443 | status=503 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/orders -> 503 (sev=high) noise:gn76
+2026-03-20T19:37:20+00:00 | 192.168.1.0 | DELETE /login | port=443 | status=500 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /login -> 500 (sev=medium)
+2026-03-19T01:40:20+00:00 | 192.168.1.0 | DELETE /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /status -> 200 (sev=high)
+2026-03-20T11:26:25+00:00 | 192.168.1.0 | DELETE / | port=443 | status=200 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE / -> 200 (sev=low)
+2026-03-19T05:51:33+00:00 | 192.168.1.0 | PUT /settings | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /settings -> 200 (sev=medium)
+2026-03-19T17:56:01+00:00 | 192.168.1.0 | PUT /admin | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /admin -> 200 (sev=high)
+2026-03-20T02:41:05+00:00 | 192.168.1.0 | DELETE /admin | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /admin -> 200 (sev=high) suspicious-response=200
+2026-03-19T15:11:51+00:00 | 192.168.1.0 | POST / | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST / -> 200 (sev=high) noise:yh24
+2026-03-19T05:12:42+00:00 | 192.168.1.0 | POST /dashboard | port=80 | status=204 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /dashboard -> 204 (sev=high) suspicious-response=204
+2026-03-19T11:29:32+00:00 | 192.168.1.0 | DELETE /dashboard | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /dashboard -> 200 (sev=medium)
+2026-03-20T13:28:49+00:00 | 192.168.1.0 | PATCH /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /status -> 200 (sev=high)
+2026-03-20T02:01:17+00:00 | 192.168.1.0 | PUT /api/orders | port=443 | status=500 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 500 (sev=low)
+2026-03-19T15:55:01+00:00 | 192.168.1.0 | POST /api/auth | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/auth -> 200 (sev=high)
+2026-03-20T05:11:07+00:00 | 192.168.1.0 | PATCH / | port=80 | status=200 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH / -> 200 (sev=low) noise:pf16
+2026-03-20T13:47:03+00:00 | 192.168.1.0 | PUT /admin | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /admin -> 200 (sev=high) suspicious-response=200
+2026-03-19T17:29:49+00:00 | 192.168.1.0 | POST / | port=80 | status=504 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST / -> 504 (sev=medium)
+2026-03-20T08:41:31+00:00 | 192.168.1.0 | PATCH /admin | port=80 | status=201 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /admin -> 201 (sev=low) noise:ns51
+2026-03-19T23:37:30+00:00 | 192.168.1.0 | PATCH /api/auth | port=80 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/auth -> 404 (sev=high)
+2026-03-20T08:06:34+00:00 | 192.168.1.0 | DELETE /api/users | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/users -> 200 (sev=high) noise:eo86 suspicious-response=200
+2026-03-20T03:36:09+00:00 | 192.168.1.0 | POST /dashboard | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /dashboard -> 200 (sev=high) suspicious-response=200
+2026-03-20T10:49:47+00:00 | 192.168.1.0 | DELETE /admin | port=80 | status=302 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /admin -> 302 (sev=low)
+2026-03-20T20:02:14+00:00 | 192.168.1.0 | GET /api/search | port=443 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/search?q=call -> 500 (sev=high) noise:et38
+2026-03-19T18:10:51+00:00 | 192.168.1.0 | GET /api/search | port=80 | status=301 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/search?q=listen -> 301 (sev=low)
+2026-03-20T23:10:56+00:00 | 192.168.1.0 | PUT /api/orders | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 200 (sev=medium) noise:he61
+2026-03-20T07:19:35+00:00 | 192.168.1.0 | POST /dashboard | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /dashboard -> 200 (sev=medium)
+2026-03-20T10:29:42+00:00 | 192.168.1.0 | PATCH /api/search | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/search?q=hear -> 200 (sev=high)
+2026-03-19T02:57:23+00:00 | 192.168.1.0 | GET /api/orders | port=80 | status=200 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/orders -> 200 (sev=low)
+2026-03-19T09:19:52+00:00 | 192.168.1.0 | DELETE /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /status -> 200 (sev=high)
+2026-03-20T11:06:07+00:00 | 192.168.1.0 | PATCH /api/orders | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/orders -> 200 (sev=high) suspicious-response=200
+2026-03-20T19:05:19+00:00 | 192.168.1.0 | PUT /admin | port=80 | status=302 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /admin -> 302 (sev=high)
+2026-03-19T08:12:53+00:00 | 192.168.1.0 | PATCH / | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH / -> 200 (sev=high) suspicious-response=200
+2026-03-19T09:37:51+00:00 | 192.168.1.0 | GET /api/search | port=443 | status=201 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/search?q=ahead -> 201 (sev=high)
+2026-03-20T00:44:36+00:00 | 192.168.1.0 | PUT /api/search | port=80 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/search?q=usually -> 500 (sev=high)
+2026-03-20T15:23:34+00:00 | 192.168.1.0 | GET /status | port=443 | status=504 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /status -> 504 (sev=high) suspicious-response=504
+2026-03-20T02:35:44+00:00 | 192.168.1.0 | GET /api/auth | port=80 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/auth -> 400 (sev=high) noise:os33
+2026-03-19T09:13:45+00:00 | 192.168.1.0 | PATCH /status | port=443 | status=504 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /status -> 504 (sev=high) noise:pi90
+2026-03-20T03:05:04+00:00 | 192.168.1.0 | GET /admin | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /admin -> 200 (sev=high)
+2026-03-20T07:01:59+00:00 | 192.168.1.0 | PUT /api/orders | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 200 (sev=medium)
+2026-03-19T11:40:20+00:00 | 192.168.1.0 | POST /status | port=80 | status=301 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /status -> 301 (sev=medium)
+2026-03-19T20:52:09+00:00 | 192.168.1.0 | POST /dashboard | port=443 | status=502 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /dashboard -> 502 (sev=medium)
+2026-03-20T09:05:45+00:00 | 192.168.1.0 | POST /settings | port=80 | status=401 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /settings -> 401 (sev=high)
+2026-03-19T13:35:01+00:00 | 192.168.1.0 | PATCH / | port=80 | status=429 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH / -> 429 (sev=high) suspicious-response=429
+2026-03-20T07:42:58+00:00 | 192.168.1.0 | DELETE / | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE / -> 200 (sev=high)
+2026-03-20T20:39:10+00:00 | 192.168.1.0 | PATCH /login | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /login -> 200 (sev=high)
+2026-03-19T07:24:59+00:00 | 192.168.1.0 | POST /status | port=80 | status=504 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /status -> 504 (sev=medium)
+2026-03-20T01:30:01+00:00 | 192.168.1.0 | POST /api/orders | port=80 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/orders -> 500 (sev=high)
+2026-03-19T04:15:13+00:00 | 192.168.1.0 | GET /login | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /login -> 200 (sev=medium)
+2026-03-20T03:19:05+00:00 | 192.168.1.0 | GET /api/orders | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/orders -> 200 (sev=high)
+2026-03-19T05:44:03+00:00 | 192.168.1.0 | PUT /admin | port=80 | status=502 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /admin -> 502 (sev=high) suspicious-response=502
+2026-03-20T20:17:03+00:00 | 192.168.1.0 | POST /status | port=443 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /status -> 404 (sev=high)
+2026-03-20T19:17:08+00:00 | 192.168.1.0 | POST /api/users | port=443 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/users -> 500 (sev=high) suspicious-response=500
+2026-03-19T14:34:04+00:00 | 192.168.1.0 | PATCH /admin | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /admin -> 200 (sev=high) noise:om26
+2026-03-19T23:05:11+00:00 | 192.168.1.0 | DELETE /settings | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /settings -> 200 (sev=high)
+2026-03-19T08:54:37+00:00 | 192.168.1.0 | POST /api/search | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/search?q=note -> 200 (sev=high) noise:pk35 suspicious-response=200
+2026-03-20T20:02:15+00:00 | 192.168.1.0 | PATCH /admin | port=443 | status=302 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /admin -> 302 (sev=high)
+2026-03-20T00:46:15+00:00 | 192.168.1.0 | GET /settings | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /settings -> 200 (sev=high)
+2026-03-19T18:09:06+00:00 | 192.168.1.0 | DELETE /status | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /status -> 200 (sev=medium)
+2026-03-19T14:55:35+00:00 | 192.168.1.0 | POST /api/orders | port=443 | status=301 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/orders -> 301 (sev=high)
+2026-03-19T12:32:10+00:00 | 192.168.1.0 | GET /admin | port=443 | status=500 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /admin -> 500 (sev=low) noise:iy76
+2026-03-20T21:24:19+00:00 | 192.168.1.0 | DELETE /api/users | port=80 | status=200 | severity=low | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/users -> 200 (sev=low)
+2026-03-19T07:35:17+00:00 | 192.168.1.0 | PUT /admin | port=80 | status=201 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /admin -> 201 (sev=high) suspicious-response=201
+2026-03-19T03:17:39+00:00 | 192.168.1.0 | DELETE /api/orders | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/orders -> 200 (sev=medium)
+2026-03-20T09:59:21+00:00 | 192.168.1.0 | GET /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /status -> 200 (sev=high) suspicious-response=200
+2026-03-19T12:39:41+00:00 | 192.168.1.0 | POST /dashboard | port=80 | status=404 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /dashboard -> 404 (sev=high) noise:uo12
+2026-03-19T09:52:25+00:00 | 192.168.1.0 | POST /api/auth | port=80 | status=204 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/auth -> 204 (sev=high)
+2026-03-20T09:47:20+00:00 | 192.168.1.0 | GET /api/users | port=80 | status=504 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /api/users -> 504 (sev=high)
+2026-03-19T01:16:50+00:00 | 192.168.1.0 | PUT / | port=80 | status=400 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT / -> 400 (sev=medium)
+2026-03-20T11:59:24+00:00 | 192.168.1.0 | PATCH /admin | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /admin -> 200 (sev=high)
+2026-03-19T16:37:20+00:00 | 192.168.1.0 | PATCH /status | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /status -> 200 (sev=high)
+2026-03-20T03:47:51+00:00 | 192.168.1.0 | PATCH /api/orders | port=80 | status=503 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/orders -> 503 (sev=high)
+2026-03-19T11:16:30+00:00 | 192.168.1.0 | GET /status | port=443 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /status -> 200 (sev=medium)
+2026-03-19T12:36:38+00:00 | 192.168.1.0 | DELETE /dashboard | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /dashboard -> 200 (sev=medium) noise:mo49
+2026-03-20T07:14:15+00:00 | 192.168.1.0 | PATCH /api/search | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/search?q=organization -> 200 (sev=high) suspicious-response=200
+2026-03-19T19:54:44+00:00 | 192.168.1.0 | GET /settings | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /settings -> 200 (sev=medium)
+2026-03-19T04:11:30+00:00 | 192.168.1.0 | DELETE /api/search | port=80 | status=500 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /api/search?q=light -> 500 (sev=high)
+2026-03-20T17:38:29+00:00 | 192.168.1.0 | PATCH /api/search | port=80 | status=403 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PATCH /api/search?q=employee -> 403 (sev=high)
+2026-03-19T21:39:17+00:00 | 192.168.1.0 | POST /api/search | port=80 | status=504 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /api/search?q=feeling -> 504 (sev=high)
+2026-03-20T21:50:21+00:00 | 192.168.1.0 | GET /dashboard | port=80 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] GET /dashboard -> 200 (sev=high)
+2026-03-19T14:12:53+00:00 | 192.168.1.0 | PUT /settings | port=443 | status=400 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /settings -> 400 (sev=high) noise:nf09 suspicious-response=400
+2026-03-20T03:20:21+00:00 | 192.168.1.0 | POST /admin | port=443 | status=204 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST /admin -> 204 (sev=high)
+2026-03-20T16:43:38+00:00 | 192.168.1.0 | PUT /api/orders | port=80 | status=200 | severity=medium | [2f02d820-a5ad-448c-8fbb-73dfc748660f] PUT /api/orders -> 200 (sev=medium)
+2026-03-19T13:36:42+00:00 | 192.168.1.0 | POST / | port=443 | status=503 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] POST / -> 503 (sev=high) noise:vp14 suspicious-response=503
+2026-03-19T23:39:06+00:00 | 192.168.1.0 | DELETE /settings | port=443 | status=200 | severity=high | [2f02d820-a5ad-448c-8fbb-73dfc748660f] DELETE /settings -> 200 (sev=high) suspicious-response=200

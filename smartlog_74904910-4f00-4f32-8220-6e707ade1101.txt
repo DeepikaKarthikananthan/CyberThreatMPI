@@ -1,0 +1,200 @@
+2026-03-20T04:49:52+00:00 | 12.191.134.71 | Attack:Port Scan | port=445 | status=SUCCESSFUL | severity=high | src=12.191.134.71 attack=Port Scan port=445 action=SUCCESSFUL sev=high
+2026-03-21T19:01:06+00:00 | 186.154.227.161 | Attack:XSS | port=80 | status=BLOCKED | severity=medium | src=186.154.227.161 attack=XSS port=80 action=BLOCKED sev=medium
+2026-03-20T05:46:48+00:00 | 61.90.152.79 | Attack:DDoS | port=21 | status=BLOCKED | severity=medium | src=61.90.152.79 attack=DDoS port=21 action=BLOCKED sev=medium peak_rps=75805
+2026-03-21T18:26:26+00:00 | 32.204.3.115 | Attack:Brute Force | port=3389 | status=DETECTED | severity=low | src=32.204.3.115 attack=Brute Force port=3389 action=DETECTED sev=low
+2026-03-20T22:47:37+00:00 | 129.250.138.141 | Attack:Port Scan | port=23 | status=BLOCKED | severity=high | src=129.250.138.141 attack=Port Scan port=23 action=BLOCKED sev=high
+2026-03-20T18:15:43+00:00 | 162.158.4.141 | Attack:SQL Injection | port=3306 | status=MITIGATED | severity=low | src=162.158.4.141 attack=SQL Injection port=3306 action=MITIGATED sev=low
+2026-03-20T21:28:00+00:00 | 172.203.181.82 | Attack:XSS | port=3306 | status=SUCCESSFUL | severity=high | src=172.203.181.82 attack=XSS port=3306 action=SUCCESSFUL sev=high
+2026-03-21T14:36:42+00:00 | 222.94.38.8 | Attack:XSS | port=443 | status=BLOCKED | severity=medium | src=222.94.38.8 attack=XSS port=443 action=BLOCKED sev=medium
+2026-03-21T06:54:09+00:00 | 72.159.14.167 | Attack:Port Scan | port=3389 | status=DETECTED | severity=high | src=72.159.14.167 attack=Port Scan port=3389 action=DETECTED sev=high
+2026-03-21T17:38:09+00:00 | 185.158.91.99 | Attack:Malware | port=443 | status=DETECTED | severity=medium | src=185.158.91.99 attack=Malware port=443 action=DETECTED sev=medium
+2026-03-20T05:12:38+00:00 | 192.93.174.162 | Attack:XSS | port=445 | status=DETECTED | severity=high | src=192.93.174.162 attack=XSS port=445 action=DETECTED sev=high
+2026-03-21T22:01:41+00:00 | 218.54.5.137 | Attack:XSS | port=443 | status=BLOCKED | severity=low | src=218.54.5.137 attack=XSS port=443 action=BLOCKED sev=low
+2026-03-20T06:46:19+00:00 | 147.18.51.100 | Attack:Phishing | port=3389 | status=DETECTED | severity=high | src=147.18.51.100 attack=Phishing port=3389 action=DETECTED sev=high
+2026-03-20T13:41:43+00:00 | 55.48.14.94 | Attack:XSS | port=22 | status=DETECTED | severity=low | src=55.48.14.94 attack=XSS port=22 action=DETECTED sev=low
+2026-03-21T22:20:33+00:00 | 185.228.135.113 | Attack:Port Scan | port=1433 | status=DETECTED | severity=medium | src=185.228.135.113 attack=Port Scan port=1433 action=DETECTED sev=medium
+2026-03-20T01:21:56+00:00 | 31.50.166.45 | Attack:SQL Injection | port=22 | status=DETECTED | severity=medium | src=31.50.166.45 attack=SQL Injection port=22 action=DETECTED sev=medium
+2026-03-21T17:23:28+00:00 | 21.9.84.11 | Attack:Port Scan | port=445 | status=DETECTED | severity=medium | src=21.9.84.11 attack=Port Scan port=445 action=DETECTED sev=medium
+2026-03-20T21:54:18+00:00 | 199.119.53.87 | Attack:Brute Force | port=80 | status=DETECTED | severity=low | src=199.119.53.87 attack=Brute Force port=80 action=DETECTED sev=low
+2026-03-21T18:12:57+00:00 | 221.146.40.215 | Attack:Phishing | port=22 | status=BLOCKED | severity=medium | src=221.146.40.215 attack=Phishing port=22 action=BLOCKED sev=medium
+2026-03-20T12:34:47+00:00 | 223.1.15.52 | Attack:DDoS | port=3389 | status=BLOCKED | severity=medium | src=223.1.15.52 attack=DDoS port=3389 action=BLOCKED sev=medium peak_rps=11339
+2026-03-20T11:17:16+00:00 | 72.148.63.123 | Attack:Credential Stuffing | port=22 | status=SUCCESSFUL | severity=high | src=72.148.63.123 attack=Credential Stuffing port=22 action=SUCCESSFUL sev=high pattern=login-failures
+2026-03-20T20:31:55+00:00 | 193.36.7.31 | Attack:DDoS | port=3389 | status=DETECTED | severity=low | src=193.36.7.31 attack=DDoS port=3389 action=DETECTED sev=low peak_rps=54948
+2026-03-21T19:27:07+00:00 | 144.172.96.94 | Attack:Credential Stuffing | port=443 | status=DETECTED | severity=low | src=144.172.96.94 attack=Credential Stuffing port=443 action=DETECTED sev=low
+2026-03-21T08:39:24+00:00 | 15.227.208.60 | Attack:Malware | port=3306 | status=DETECTED | severity=medium | src=15.227.208.60 attack=Malware port=3306 action=DETECTED sev=medium
+2026-03-21T13:18:55+00:00 | 196.114.71.217 | Attack:Credential Stuffing | port=1433 | status=MITIGATED | severity=medium | src=196.114.71.217 attack=Credential Stuffing port=1433 action=MITIGATED sev=medium noise:yq38
+2026-03-21T23:09:06+00:00 | 219.216.239.16 | Attack:Brute Force | port=22 | status=DETECTED | severity=high | src=219.216.239.16 attack=Brute Force port=22 action=DETECTED sev=high pattern=login-failures
+2026-03-20T11:55:36+00:00 | 181.141.45.128 | Attack:XSS | port=445 | status=BLOCKED | severity=medium | src=181.141.45.128 attack=XSS port=445 action=BLOCKED sev=medium
+2026-03-20T20:00:47+00:00 | 215.71.255.254 | Attack:XSS | port=1433 | status=DETECTED | severity=medium | src=215.71.255.254 attack=XSS port=1433 action=DETECTED sev=medium
+2026-03-20T03:10:21+00:00 | 144.122.174.45 | Attack:DDoS | port=21 | status=DETECTED | severity=medium | src=144.122.174.45 attack=DDoS port=21 action=DETECTED sev=medium peak_rps=50004
+2026-03-21T17:31:35+00:00 | 21.116.242.91 | Attack:SQL Injection | port=80 | status=SUCCESSFUL | severity=medium | src=21.116.242.91 attack=SQL Injection port=80 action=SUCCESSFUL sev=medium
+2026-03-21T00:48:17+00:00 | 39.56.20.48 | Attack:Brute Force | port=80 | status=BLOCKED | severity=high | src=39.56.20.48 attack=Brute Force port=80 action=BLOCKED sev=high pattern=login-failures
+2026-03-20T16:16:47+00:00 | 32.15.82.123 | Attack:Credential Stuffing | port=23 | status=DETECTED | severity=medium | src=32.15.82.123 attack=Credential Stuffing port=23 action=DETECTED sev=medium
+2026-03-20T07:45:56+00:00 | 175.78.161.93 | Attack:DDoS | port=445 | status=SUCCESSFUL | severity=medium | src=175.78.161.93 attack=DDoS port=445 action=SUCCESSFUL sev=medium peak_rps=53312
+2026-03-20T19:56:35+00:00 | 191.230.220.227 | Attack:Brute Force | port=3306 | status=DETECTED | severity=high | src=191.230.220.227 attack=Brute Force port=3306 action=DETECTED sev=high pattern=login-failures
+2026-03-20T23:01:55+00:00 | 139.161.153.160 | Attack:SQL Injection | port=21 | status=DETECTED | severity=high | src=139.161.153.160 attack=SQL Injection port=21 action=DETECTED sev=high
+2026-03-20T07:58:25+00:00 | 146.241.191.127 | Attack:DDoS | port=3306 | status=BLOCKED | severity=medium | src=146.241.191.127 attack=DDoS port=3306 action=BLOCKED sev=medium peak_rps=112016
+2026-03-21T16:24:47+00:00 | 167.84.96.105 | Attack:Malware | port=23 | status=BLOCKED | severity=medium | src=167.84.96.105 attack=Malware port=23 action=BLOCKED sev=medium
+2026-03-21T01:27:42+00:00 | 193.93.140.75 | Attack:XSS | port=443 | status=DETECTED | severity=high | src=193.93.140.75 attack=XSS port=443 action=DETECTED sev=high
+2026-03-21T01:48:41+00:00 | 200.98.71.70 | Attack:Phishing | port=445 | status=MITIGATED | severity=medium | src=200.98.71.70 attack=Phishing port=445 action=MITIGATED sev=medium
+2026-03-21T07:08:59+00:00 | 202.46.10.173 | Attack:Malware | port=3306 | status=DETECTED | severity=low | src=202.46.10.173 attack=Malware port=3306 action=DETECTED sev=low
+2026-03-20T23:27:05+00:00 | 186.207.39.210 | Attack:Malware | port=3389 | status=DETECTED | severity=high | src=186.207.39.210 attack=Malware port=3389 action=DETECTED sev=high noise:jc40
+2026-03-21T03:49:46+00:00 | 165.219.134.50 | Attack:Brute Force | port=445 | status=DETECTED | severity=low | src=165.219.134.50 attack=Brute Force port=445 action=DETECTED sev=low
+2026-03-21T00:33:47+00:00 | 56.20.48.133 | Attack:Malware | port=3306 | status=SUCCESSFUL | severity=medium | src=56.20.48.133 attack=Malware port=3306 action=SUCCESSFUL sev=medium noise:rw25
+2026-03-21T09:52:21+00:00 | 22.182.45.249 | Attack:XSS | port=445 | status=BLOCKED | severity=low | src=22.182.45.249 attack=XSS port=445 action=BLOCKED sev=low
+2026-03-21T19:57:47+00:00 | 129.223.247.152 | Attack:Phishing | port=80 | status=DETECTED | severity=high | src=129.223.247.152 attack=Phishing port=80 action=DETECTED sev=high noise:ic50
+2026-03-20T22:20:26+00:00 | 218.221.220.220 | Attack:XSS | port=21 | status=DETECTED | severity=medium | src=218.221.220.220 attack=XSS port=21 action=DETECTED sev=medium
+2026-03-21T13:02:34+00:00 | 206.202.216.60 | Attack:DDoS | port=445 | status=DETECTED | severity=low | src=206.202.216.60 attack=DDoS port=445 action=DETECTED sev=low noise:sg43 peak_rps=39006
+2026-03-20T11:56:29+00:00 | 199.142.77.86 | Attack:Phishing | port=3306 | status=BLOCKED | severity=high | src=199.142.77.86 attack=Phishing port=3306 action=BLOCKED sev=high
+2026-03-21T02:08:47+00:00 | 125.181.246.47 | Attack:Credential Stuffing | port=3306 | status=DETECTED | severity=low | src=125.181.246.47 attack=Credential Stuffing port=3306 action=DETECTED sev=low
+2026-03-21T16:52:48+00:00 | 152.79.119.142 | Attack:SQL Injection | port=1433 | status=SUCCESSFUL | severity=high | src=152.79.119.142 attack=SQL Injection port=1433 action=SUCCESSFUL sev=high noise:os33
+2026-03-21T02:26:27+00:00 | 166.230.162.240 | Attack:Brute Force | port=445 | status=BLOCKED | severity=high | src=166.230.162.240 attack=Brute Force port=445 action=BLOCKED sev=high pattern=login-failures
+2026-03-21T12:27:21+00:00 | 34.113.7.203 | Attack:Port Scan | port=445 | status=DETECTED | severity=medium | src=34.113.7.203 attack=Port Scan port=445 action=DETECTED sev=medium noise:lz22
+2026-03-21T06:31:51+00:00 | 57.253.193.171 | Attack:SQL Injection | port=22 | status=SUCCESSFUL | severity=medium | src=57.253.193.171 attack=SQL Injection port=22 action=SUCCESSFUL sev=medium noise:yq84
+2026-03-20T23:55:13+00:00 | 191.24.123.170 | Attack:DDoS | port=445 | status=SUCCESSFUL | severity=high | src=191.24.123.170 attack=DDoS port=445 action=SUCCESSFUL sev=high noise:ob60 peak_rps=98208
+2026-03-20T21:46:05+00:00 | 158.147.13.194 | Attack:Brute Force | port=22 | status=DETECTED | severity=high | src=158.147.13.194 attack=Brute Force port=22 action=DETECTED sev=high noise:te88 pattern=login-failures
+2026-03-21T20:02:35+00:00 | 74.22.221.228 | Attack:Brute Force | port=445 | status=BLOCKED | severity=medium | src=74.22.221.228 attack=Brute Force port=445 action=BLOCKED sev=medium
+2026-03-21T12:05:20+00:00 | 142.89.97.108 | Attack:SQL Injection | port=443 | status=DETECTED | severity=low | src=142.89.97.108 attack=SQL Injection port=443 action=DETECTED sev=low
+2026-03-21T08:39:53+00:00 | 207.56.109.71 | Attack:DDoS | port=80 | status=DETECTED | severity=medium | src=207.56.109.71 attack=DDoS port=80 action=DETECTED sev=medium peak_rps=27378
+2026-03-21T01:14:49+00:00 | 153.1.49.251 | Attack:DDoS | port=3389 | status=BLOCKED | severity=medium | src=153.1.49.251 attack=DDoS port=3389 action=BLOCKED sev=medium noise:vv11 peak_rps=2501
+2026-03-21T11:47:50+00:00 | 208.220.22.147 | Attack:DDoS | port=23 | status=BLOCKED | severity=high | src=208.220.22.147 attack=DDoS port=23 action=BLOCKED sev=high noise:jl44 peak_rps=62018
+2026-03-20T16:28:05+00:00 | 87.90.87.12 | Attack:Brute Force | port=445 | status=SUCCESSFUL | severity=high | src=87.90.87.12 attack=Brute Force port=445 action=SUCCESSFUL sev=high pattern=login-failures
+2026-03-20T19:26:15+00:00 | 193.236.109.72 | Attack:Brute Force | port=80 | status=BLOCKED | severity=medium | src=193.236.109.72 attack=Brute Force port=80 action=BLOCKED sev=medium
+2026-03-21T05:22:49+00:00 | 47.230.167.113 | Attack:Phishing | port=3389 | status=MITIGATED | severity=medium | src=47.230.167.113 attack=Phishing port=3389 action=MITIGATED sev=medium
+2026-03-20T00:58:07+00:00 | 134.232.155.6 | Attack:Malware | port=443 | status=SUCCESSFUL | severity=high | src=134.232.155.6 attack=Malware port=443 action=SUCCESSFUL sev=high noise:iq31
+2026-03-20T16:44:39+00:00 | 92.77.158.105 | Attack:Credential Stuffing | port=3389 | status=SUCCESSFUL | severity=low | src=92.77.158.105 attack=Credential Stuffing port=3389 action=SUCCESSFUL sev=low
+2026-03-20T07:27:41+00:00 | 47.224.221.128 | Attack:SQL Injection | port=80 | status=SUCCESSFUL | severity=low | src=47.224.221.128 attack=SQL Injection port=80 action=SUCCESSFUL sev=low
+2026-03-20T04:55:16+00:00 | 222.198.85.180 | Attack:XSS | port=21 | status=SUCCESSFUL | severity=high | src=222.198.85.180 attack=XSS port=21 action=SUCCESSFUL sev=high
+2026-03-21T00:10:58+00:00 | 222.95.38.53 | Attack:Credential Stuffing | port=3389 | status=BLOCKED | severity=low | src=222.95.38.53 attack=Credential Stuffing port=3389 action=BLOCKED sev=low
+2026-03-21T21:00:36+00:00 | 46.63.72.212 | Attack:XSS | port=22 | status=BLOCKED | severity=high | src=46.63.72.212 attack=XSS port=22 action=BLOCKED sev=high
+2026-03-21T15:56:54+00:00 | 222.1.139.132 | Attack:Port Scan | port=445 | status=MITIGATED | severity=medium | src=222.1.139.132 attack=Port Scan port=445 action=MITIGATED sev=medium
+2026-03-21T11:28:33+00:00 | 167.171.205.24 | Attack:Malware | port=22 | status=DETECTED | severity=low | src=167.171.205.24 attack=Malware port=22 action=DETECTED sev=low
+2026-03-21T19:25:26+00:00 | 192.240.141.144 | Attack:Credential Stuffing | port=23 | status=BLOCKED | severity=medium | src=192.240.141.144 attack=Credential Stuffing port=23 action=BLOCKED sev=medium
+2026-03-21T15:50:14+00:00 | 217.176.234.50 | Attack:SQL Injection | port=1433 | status=SUCCESSFUL | severity=high | src=217.176.234.50 attack=SQL Injection port=1433 action=SUCCESSFUL sev=high
+2026-03-21T17:13:51+00:00 | 199.236.185.228 | Attack:Brute Force | port=21 | status=MITIGATED | severity=medium | src=199.236.185.228 attack=Brute Force port=21 action=MITIGATED sev=medium
+2026-03-21T17:11:29+00:00 | 58.116.249.7 | Attack:Port Scan | port=21 | status=BLOCKED | severity=high | src=58.116.249.7 attack=Port Scan port=21 action=BLOCKED sev=high
+2026-03-21T13:49:13+00:00 | 190.42.54.244 | Attack:Credential Stuffing | port=445 | status=DETECTED | severity=medium | src=190.42.54.244 attack=Credential Stuffing port=445 action=DETECTED sev=medium
+2026-03-20T04:14:41+00:00 | 209.51.40.40 | Attack:SQL Injection | port=443 | status=DETECTED | severity=medium | src=209.51.40.40 attack=SQL Injection port=443 action=DETECTED sev=medium noise:mw67
+2026-03-21T09:09:37+00:00 | 141.10.55.16 | Attack:Malware | port=3389 | status=MITIGATED | severity=medium | src=141.10.55.16 attack=Malware port=3389 action=MITIGATED sev=medium noise:fb66
+2026-03-21T19:11:33+00:00 | 171.54.197.173 | Attack:Port Scan | port=80 | status=SUCCESSFUL | severity=low | src=171.54.197.173 attack=Port Scan port=80 action=SUCCESSFUL sev=low
+2026-03-20T19:41:21+00:00 | 202.122.96.8 | Attack:Brute Force | port=23 | status=BLOCKED | severity=medium | src=202.122.96.8 attack=Brute Force port=23 action=BLOCKED sev=medium
+2026-03-20T12:53:27+00:00 | 200.131.189.144 | Attack:DDoS | port=443 | status=SUCCESSFUL | severity=medium | src=200.131.189.144 attack=DDoS port=443 action=SUCCESSFUL sev=medium peak_rps=29534
+2026-03-21T10:46:54+00:00 | 205.61.136.38 | Attack:DDoS | port=443 | status=MITIGATED | severity=medium | src=205.61.136.38 attack=DDoS port=443 action=MITIGATED sev=medium peak_rps=77561
+2026-03-21T19:55:19+00:00 | 211.153.96.17 | Attack:XSS | port=1433 | status=BLOCKED | severity=low | src=211.153.96.17 attack=XSS port=1433 action=BLOCKED sev=low
+2026-03-20T23:31:01+00:00 | 210.114.22.155 | Attack:Credential Stuffing | port=21 | status=MITIGATED | severity=low | src=210.114.22.155 attack=Credential Stuffing port=21 action=MITIGATED sev=low
+2026-03-20T10:45:25+00:00 | 92.109.73.198 | Attack:SQL Injection | port=1433 | status=BLOCKED | severity=low | src=92.109.73.198 attack=SQL Injection port=1433 action=BLOCKED sev=low
+2026-03-20T21:56:05+00:00 | 149.129.46.188 | Attack:Malware | port=22 | status=SUCCESSFUL | severity=medium | src=149.129.46.188 attack=Malware port=22 action=SUCCESSFUL sev=medium
+2026-03-20T16:39:07+00:00 | 42.232.100.76 | Attack:XSS | port=3389 | status=DETECTED | severity=medium | src=42.232.100.76 attack=XSS port=3389 action=DETECTED sev=medium noise:yt77
+2026-03-21T09:16:48+00:00 | 201.88.39.170 | Attack:Credential Stuffing | port=3389 | status=BLOCKED | severity=high | src=201.88.39.170 attack=Credential Stuffing port=3389 action=BLOCKED sev=high pattern=login-failures
+2026-03-21T02:06:44+00:00 | 2.138.115.193 | Attack:DDoS | port=22 | status=BLOCKED | severity=high | src=2.138.115.193 attack=DDoS port=22 action=BLOCKED sev=high peak_rps=46058
+2026-03-21T18:59:25+00:00 | 1.118.17.66 | Attack:DDoS | port=1433 | status=DETECTED | severity=medium | src=1.118.17.66 attack=DDoS port=1433 action=DETECTED sev=medium peak_rps=38188
+2026-03-21T01:48:39+00:00 | 212.172.31.148 | Attack:Brute Force | port=3389 | status=DETECTED | severity=low | src=212.172.31.148 attack=Brute Force port=3389 action=DETECTED sev=low
+2026-03-21T23:27:10+00:00 | 122.125.117.44 | Attack:Credential Stuffing | port=21 | status=MITIGATED | severity=medium | src=122.125.117.44 attack=Credential Stuffing port=21 action=MITIGATED sev=medium
+2026-03-21T19:32:21+00:00 | 54.253.217.140 | Attack:Credential Stuffing | port=23 | status=DETECTED | severity=medium | src=54.253.217.140 attack=Credential Stuffing port=23 action=DETECTED sev=medium
+2026-03-21T06:13:43+00:00 | 14.187.144.146 | Attack:DDoS | port=3389 | status=BLOCKED | severity=high | src=14.187.144.146 attack=DDoS port=3389 action=BLOCKED sev=high peak_rps=7212
+2026-03-20T20:20:47+00:00 | 219.204.45.137 | Attack:Credential Stuffing | port=23 | status=BLOCKED | severity=medium | src=219.204.45.137 attack=Credential Stuffing port=23 action=BLOCKED sev=medium noise:th39
+2026-03-20T13:12:31+00:00 | 102.131.65.92 | Attack:XSS | port=1433 | status=BLOCKED | severity=low | src=102.131.65.92 attack=XSS port=1433 action=BLOCKED sev=low noise:ww84
+2026-03-21T15:06:38+00:00 | 25.74.136.69 | Attack:Malware | port=23 | status=DETECTED | severity=low | src=25.74.136.69 attack=Malware port=23 action=DETECTED sev=low
+2026-03-21T19:34:14+00:00 | 206.187.162.169 | Attack:XSS | port=21 | status=SUCCESSFUL | severity=medium | src=206.187.162.169 attack=XSS port=21 action=SUCCESSFUL sev=medium
+2026-03-21T18:55:58+00:00 | 32.229.98.25 | Attack:Malware | port=3306 | status=DETECTED | severity=medium | src=32.229.98.25 attack=Malware port=3306 action=DETECTED sev=medium noise:ey66
+2026-03-20T22:41:46+00:00 | 161.154.224.160 | Attack:Port Scan | port=443 | status=SUCCESSFUL | severity=high | src=161.154.224.160 attack=Port Scan port=443 action=SUCCESSFUL sev=high noise:dt09
+2026-03-21T03:33:39+00:00 | 200.39.95.60 | Attack:Credential Stuffing | port=80 | status=BLOCKED | severity=medium | src=200.39.95.60 attack=Credential Stuffing port=80 action=BLOCKED sev=medium
+2026-03-20T14:25:55+00:00 | 202.133.106.87 | Attack:Phishing | port=1433 | status=BLOCKED | severity=high | src=202.133.106.87 attack=Phishing port=1433 action=BLOCKED sev=high
+2026-03-20T00:59:23+00:00 | 166.207.225.9 | Attack:Brute Force | port=21 | status=MITIGATED | severity=medium | src=166.207.225.9 attack=Brute Force port=21 action=MITIGATED sev=medium noise:fd63
+2026-03-21T13:12:47+00:00 | 193.238.18.248 | Attack:Credential Stuffing | port=21 | status=DETECTED | severity=medium | src=193.238.18.248 attack=Credential Stuffing port=21 action=DETECTED sev=medium
+2026-03-20T22:56:04+00:00 | 159.205.128.208 | Attack:Phishing | port=21 | status=BLOCKED | severity=medium | src=159.205.128.208 attack=Phishing port=21 action=BLOCKED sev=medium
+2026-03-21T06:21:34+00:00 | 172.131.226.69 | Attack:SQL Injection | port=3389 | status=DETECTED | severity=low | src=172.131.226.69 attack=SQL Injection port=3389 action=DETECTED sev=low
+2026-03-21T17:50:16+00:00 | 183.104.199.207 | Attack:Credential Stuffing | port=3306 | status=BLOCKED | severity=medium | src=183.104.199.207 attack=Credential Stuffing port=3306 action=BLOCKED sev=medium
+2026-03-21T20:27:18+00:00 | 216.7.74.220 | Attack:XSS | port=80 | status=DETECTED | severity=high | src=216.7.74.220 attack=XSS port=80 action=DETECTED sev=high noise:df50
+2026-03-21T20:02:11+00:00 | 186.178.161.114 | Attack:Malware | port=3389 | status=MITIGATED | severity=medium | src=186.178.161.114 attack=Malware port=3389 action=MITIGATED sev=medium
+2026-03-20T12:55:26+00:00 | 193.125.152.55 | Attack:Brute Force | port=445 | status=BLOCKED | severity=high | src=193.125.152.55 attack=Brute Force port=445 action=BLOCKED sev=high pattern=login-failures
+2026-03-21T20:57:16+00:00 | 155.206.124.153 | Attack:Malware | port=23 | status=SUCCESSFUL | severity=high | src=155.206.124.153 attack=Malware port=23 action=SUCCESSFUL sev=high
+2026-03-21T20:35:24+00:00 | 62.36.161.194 | Attack:SQL Injection | port=3389 | status=MITIGATED | severity=medium | src=62.36.161.194 attack=SQL Injection port=3389 action=MITIGATED sev=medium
+2026-03-21T16:24:19+00:00 | 164.155.66.48 | Attack:Brute Force | port=22 | status=MITIGATED | severity=medium | src=164.155.66.48 attack=Brute Force port=22 action=MITIGATED sev=medium noise:df10
+2026-03-20T09:53:41+00:00 | 223.157.167.46 | Attack:Brute Force | port=443 | status=SUCCESSFUL | severity=high | src=223.157.167.46 attack=Brute Force port=443 action=SUCCESSFUL sev=high pattern=login-failures
+2026-03-21T13:27:30+00:00 | 165.149.79.69 | Attack:Brute Force | port=22 | status=DETECTED | severity=low | src=165.149.79.69 attack=Brute Force port=22 action=DETECTED sev=low
+2026-03-20T21:25:42+00:00 | 203.82.242.78 | Attack:Phishing | port=443 | status=DETECTED | severity=medium | src=203.82.242.78 attack=Phishing port=443 action=DETECTED sev=medium
+2026-03-20T09:59:43+00:00 | 194.124.228.210 | Attack:Phishing | port=3306 | status=DETECTED | severity=medium | src=194.124.228.210 attack=Phishing port=3306 action=DETECTED sev=medium noise:nc69
+2026-03-21T14:06:28+00:00 | 104.251.36.190 | Attack:Malware | port=445 | status=BLOCKED | severity=medium | src=104.251.36.190 attack=Malware port=445 action=BLOCKED sev=medium
+2026-03-21T01:32:21+00:00 | 205.180.55.154 | Attack:Malware | port=443 | status=SUCCESSFUL | severity=medium | src=205.180.55.154 attack=Malware port=443 action=SUCCESSFUL sev=medium noise:lt47
+2026-03-20T18:49:46+00:00 | 204.43.34.173 | Attack:XSS | port=1433 | status=MITIGATED | severity=low | src=204.43.34.173 attack=XSS port=1433 action=MITIGATED sev=low
+2026-03-21T17:19:11+00:00 | 213.97.167.149 | Attack:XSS | port=23 | status=DETECTED | severity=low | src=213.97.167.149 attack=XSS port=23 action=DETECTED sev=low
+2026-03-21T02:29:09+00:00 | 208.56.94.73 | Attack:DDoS | port=21 | status=BLOCKED | severity=high | src=208.56.94.73 attack=DDoS port=21 action=BLOCKED sev=high peak_rps=106918
+2026-03-20T02:45:59+00:00 | 215.29.146.142 | Attack:Malware | port=445 | status=BLOCKED | severity=medium | src=215.29.146.142 attack=Malware port=445 action=BLOCKED sev=medium
+2026-03-20T23:50:34+00:00 | 117.66.161.197 | Attack:Malware | port=23 | status=SUCCESSFUL | severity=high | src=117.66.161.197 attack=Malware port=23 action=SUCCESSFUL sev=high
+2026-03-20T09:02:15+00:00 | 155.150.181.163 | Attack:SQL Injection | port=80 | status=DETECTED | severity=low | src=155.150.181.163 attack=SQL Injection port=80 action=DETECTED sev=low noise:ft33
+2026-03-21T17:14:01+00:00 | 129.113.221.42 | Attack:Malware | port=443 | status=DETECTED | severity=medium | src=129.113.221.42 attack=Malware port=443 action=DETECTED sev=medium
+2026-03-20T08:52:00+00:00 | 7.191.49.137 | Attack:Malware | port=445 | status=BLOCKED | severity=low | src=7.191.49.137 attack=Malware port=445 action=BLOCKED sev=low
+2026-03-20T23:49:29+00:00 | 72.195.207.188 | Attack:Credential Stuffing | port=22 | status=BLOCKED | severity=high | src=72.195.207.188 attack=Credential Stuffing port=22 action=BLOCKED sev=high pattern=login-failures
+2026-03-20T06:55:23+00:00 | 180.113.185.253 | Attack:Malware | port=3389 | status=DETECTED | severity=medium | src=180.113.185.253 attack=Malware port=3389 action=DETECTED sev=medium
+2026-03-21T19:55:15+00:00 | 125.122.240.19 | Attack:XSS | port=21 | status=DETECTED | severity=low | src=125.122.240.19 attack=XSS port=21 action=DETECTED sev=low
+2026-03-20T02:35:10+00:00 | 3.246.6.240 | Attack:Brute Force | port=443 | status=SUCCESSFUL | severity=high | src=3.246.6.240 attack=Brute Force port=443 action=SUCCESSFUL sev=high pattern=login-failures
+2026-03-21T12:39:10+00:00 | 205.132.113.2 | Attack:XSS | port=22 | status=DETECTED | severity=high | src=205.132.113.2 attack=XSS port=22 action=DETECTED sev=high
+2026-03-21T06:34:35+00:00 | 213.28.209.89 | Attack:SQL Injection | port=22 | status=MITIGATED | severity=low | src=213.28.209.89 attack=SQL Injection port=22 action=MITIGATED sev=low noise:ef93
+2026-03-21T05:58:50+00:00 | 143.153.69.20 | Attack:Port Scan | port=443 | status=DETECTED | severity=medium | src=143.153.69.20 attack=Port Scan port=443 action=DETECTED sev=medium noise:mv56
+2026-03-21T18:52:08+00:00 | 161.103.34.200 | Attack:Malware | port=21 | status=MITIGATED | severity=medium | src=161.103.34.200 attack=Malware port=21 action=MITIGATED sev=medium noise:py53
+2026-03-20T09:32:28+00:00 | 80.104.209.39 | Attack:Malware | port=23 | status=DETECTED | severity=low | src=80.104.209.39 attack=Malware port=23 action=DETECTED sev=low
+2026-03-20T07:41:30+00:00 | 192.99.249.105 | Attack:Port Scan | port=3389 | status=DETECTED | severity=medium | src=192.99.249.105 attack=Port Scan port=3389 action=DETECTED sev=medium
+2026-03-21T13:12:23+00:00 | 138.128.163.228 | Attack:Port Scan | port=443 | status=MITIGATED | severity=low | src=138.128.163.228 attack=Port Scan port=443 action=MITIGATED sev=low
+2026-03-21T16:03:09+00:00 | 211.3.240.97 | Attack:DDoS | port=3389 | status=SUCCESSFUL | severity=low | src=211.3.240.97 attack=DDoS port=3389 action=SUCCESSFUL sev=low noise:gd63 peak_rps=99463
+2026-03-20T20:04:12+00:00 | 119.143.85.241 | Attack:XSS | port=443 | status=SUCCESSFUL | severity=high | src=119.143.85.241 attack=XSS port=443 action=SUCCESSFUL sev=high noise:xw20
+2026-03-21T11:40:44+00:00 | 217.217.138.47 | Attack:Credential Stuffing | port=23 | status=SUCCESSFUL | severity=low | src=217.217.138.47 attack=Credential Stuffing port=23 action=SUCCESSFUL sev=low
+2026-03-20T19:50:32+00:00 | 203.32.162.25 | Attack:SQL Injection | port=22 | status=BLOCKED | severity=medium | src=203.32.162.25 attack=SQL Injection port=22 action=BLOCKED sev=medium
+2026-03-21T07:45:52+00:00 | 195.0.21.95 | Attack:SQL Injection | port=3389 | status=DETECTED | severity=medium | src=195.0.21.95 attack=SQL Injection port=3389 action=DETECTED sev=medium noise:fh47
+2026-03-21T14:13:28+00:00 | 192.223.209.47 | Attack:Phishing | port=443 | status=DETECTED | severity=medium | src=192.223.209.47 attack=Phishing port=443 action=DETECTED sev=medium noise:qs88
+2026-03-21T07:03:19+00:00 | 204.63.101.194 | Attack:Credential Stuffing | port=3306 | status=DETECTED | severity=high | src=204.63.101.194 attack=Credential Stuffing port=3306 action=DETECTED sev=high pattern=login-failures
+2026-03-21T03:28:50+00:00 | 189.71.120.186 | Attack:DDoS | port=21 | status=SUCCESSFUL | severity=medium | src=189.71.120.186 attack=DDoS port=21 action=SUCCESSFUL sev=medium peak_rps=72137
+2026-03-21T01:04:37+00:00 | 71.206.198.185 | Attack:Credential Stuffing | port=3389 | status=BLOCKED | severity=medium | src=71.206.198.185 attack=Credential Stuffing port=3389 action=BLOCKED sev=medium
+2026-03-20T23:39:45+00:00 | 61.125.162.193 | Attack:DDoS | port=3306 | status=MITIGATED | severity=low | src=61.125.162.193 attack=DDoS port=3306 action=MITIGATED sev=low peak_rps=81369
+2026-03-21T10:11:41+00:00 | 178.59.72.125 | Attack:XSS | port=22 | status=BLOCKED | severity=low | src=178.59.72.125 attack=XSS port=22 action=BLOCKED sev=low noise:yx45
+2026-03-20T22:25:21+00:00 | 84.37.64.10 | Attack:Malware | port=445 | status=DETECTED | severity=medium | src=84.37.64.10 attack=Malware port=445 action=DETECTED sev=medium
+2026-03-21T03:22:56+00:00 | 181.75.21.2 | Attack:Credential Stuffing | port=80 | status=SUCCESSFUL | severity=medium | src=181.75.21.2 attack=Credential Stuffing port=80 action=SUCCESSFUL sev=medium
+2026-03-20T02:26:41+00:00 | 222.232.119.254 | Attack:SQL Injection | port=445 | status=DETECTED | severity=medium | src=222.232.119.254 attack=SQL Injection port=445 action=DETECTED sev=medium
+2026-03-20T23:51:59+00:00 | 121.109.162.8 | Attack:Phishing | port=21 | status=DETECTED | severity=low | src=121.109.162.8 attack=Phishing port=21 action=DETECTED sev=low
+2026-03-20T06:46:05+00:00 | 195.47.56.167 | Attack:Credential Stuffing | port=445 | status=DETECTED | severity=medium | src=195.47.56.167 attack=Credential Stuffing port=445 action=DETECTED sev=medium
+2026-03-21T18:39:42+00:00 | 18.88.158.27 | Attack:Malware | port=3306 | status=BLOCKED | severity=medium | src=18.88.158.27 attack=Malware port=3306 action=BLOCKED sev=medium
+2026-03-20T20:57:18+00:00 | 130.184.69.104 | Attack:Phishing | port=443 | status=SUCCESSFUL | severity=high | src=130.184.69.104 attack=Phishing port=443 action=SUCCESSFUL sev=high
+2026-03-20T17:30:06+00:00 | 109.159.36.175 | Attack:Malware | port=445 | status=DETECTED | severity=medium | src=109.159.36.175 attack=Malware port=445 action=DETECTED sev=medium noise:mb17
+2026-03-20T00:37:31+00:00 | 168.246.194.47 | Attack:Brute Force | port=445 | status=DETECTED | severity=medium | src=168.246.194.47 attack=Brute Force port=445 action=DETECTED sev=medium
+2026-03-20T17:19:56+00:00 | 221.48.171.144 | Attack:Malware | port=23 | status=DETECTED | severity=low | src=221.48.171.144 attack=Malware port=23 action=DETECTED sev=low
+2026-03-21T04:22:35+00:00 | 160.133.40.49 | Attack:Malware | port=1433 | status=SUCCESSFUL | severity=medium | src=160.133.40.49 attack=Malware port=1433 action=SUCCESSFUL sev=medium
+2026-03-20T19:21:48+00:00 | 218.122.194.23 | Attack:Phishing | port=3389 | status=MITIGATED | severity=low | src=218.122.194.23 attack=Phishing port=3389 action=MITIGATED sev=low
+2026-03-21T00:48:54+00:00 | 217.152.235.60 | Attack:Phishing | port=1433 | status=BLOCKED | severity=medium | src=217.152.235.60 attack=Phishing port=1433 action=BLOCKED sev=medium noise:nj75
+2026-03-20T15:26:02+00:00 | 109.117.33.239 | Attack:Credential Stuffing | port=22 | status=DETECTED | severity=medium | src=109.117.33.239 attack=Credential Stuffing port=22 action=DETECTED sev=medium
+2026-03-20T05:12:56+00:00 | 140.255.21.21 | Attack:Malware | port=23 | status=DETECTED | severity=high | src=140.255.21.21 attack=Malware port=23 action=DETECTED sev=high
+2026-03-20T20:47:43+00:00 | 193.30.237.212 | Attack:Phishing | port=80 | status=DETECTED | severity=medium | src=193.30.237.212 attack=Phishing port=80 action=DETECTED sev=medium
+2026-03-21T10:01:31+00:00 | 209.186.71.241 | Attack:Port Scan | port=443 | status=MITIGATED | severity=low | src=209.186.71.241 attack=Port Scan port=443 action=MITIGATED sev=low
+2026-03-21T04:31:30+00:00 | 87.192.139.70 | Attack:Phishing | port=22 | status=SUCCESSFUL | severity=low | src=87.192.139.70 attack=Phishing port=22 action=SUCCESSFUL sev=low
+2026-03-20T06:01:56+00:00 | 135.121.118.172 | Attack:Phishing | port=23 | status=SUCCESSFUL | severity=medium | src=135.121.118.172 attack=Phishing port=23 action=SUCCESSFUL sev=medium
+2026-03-21T10:47:05+00:00 | 213.9.157.107 | Attack:DDoS | port=445 | status=DETECTED | severity=medium | src=213.9.157.107 attack=DDoS port=445 action=DETECTED sev=medium noise:dt22 peak_rps=94548
+2026-03-21T16:31:35+00:00 | 206.92.168.215 | Attack:Malware | port=3389 | status=SUCCESSFUL | severity=high | src=206.92.168.215 attack=Malware port=3389 action=SUCCESSFUL sev=high noise:uw63
+2026-03-20T09:38:13+00:00 | 207.66.193.164 | Attack:Port Scan | port=443 | status=DETECTED | severity=medium | src=207.66.193.164 attack=Port Scan port=443 action=DETECTED sev=medium
+2026-03-21T06:40:16+00:00 | 30.23.248.200 | Attack:XSS | port=22 | status=SUCCESSFUL | severity=medium | src=30.23.248.200 attack=XSS port=22 action=SUCCESSFUL sev=medium
+2026-03-20T09:11:40+00:00 | 206.128.120.49 | Attack:Brute Force | port=443 | status=DETECTED | severity=low | src=206.128.120.49 attack=Brute Force port=443 action=DETECTED sev=low noise:ed50
+2026-03-21T14:30:22+00:00 | 196.100.27.179 | Attack:Brute Force | port=3306 | status=DETECTED | severity=medium | src=196.100.27.179 attack=Brute Force port=3306 action=DETECTED sev=medium
+2026-03-21T02:24:17+00:00 | 207.230.177.80 | Attack:DDoS | port=3389 | status=BLOCKED | severity=medium | src=207.230.177.80 attack=DDoS port=3389 action=BLOCKED sev=medium peak_rps=9165
+2026-03-21T08:29:43+00:00 | 205.234.245.139 | Attack:Port Scan | port=3389 | status=SUCCESSFUL | severity=low | src=205.234.245.139 attack=Port Scan port=3389 action=SUCCESSFUL sev=low noise:ys71
+2026-03-21T03:52:16+00:00 | 53.157.245.125 | Attack:Port Scan | port=3306 | status=SUCCESSFUL | severity=high | src=53.157.245.125 attack=Port Scan port=3306 action=SUCCESSFUL sev=high
+2026-03-21T07:36:49+00:00 | 174.147.19.30 | Attack:XSS | port=1433 | status=DETECTED | severity=medium | src=174.147.19.30 attack=XSS port=1433 action=DETECTED sev=medium
+2026-03-20T15:21:29+00:00 | 159.96.81.248 | Attack:DDoS | port=22 | status=BLOCKED | severity=low | src=159.96.81.248 attack=DDoS port=22 action=BLOCKED sev=low peak_rps=30829
+2026-03-21T15:49:52+00:00 | 206.47.133.43 | Attack:DDoS | port=80 | status=SUCCESSFUL | severity=low | src=206.47.133.43 attack=DDoS port=80 action=SUCCESSFUL sev=low peak_rps=117469
+2026-03-20T07:51:43+00:00 | 142.90.194.159 | Attack:SQL Injection | port=23 | status=DETECTED | severity=low | src=142.90.194.159 attack=SQL Injection port=23 action=DETECTED sev=low
+2026-03-21T02:41:51+00:00 | 37.87.195.229 | Attack:Brute Force | port=22 | status=SUCCESSFUL | severity=low | src=37.87.195.229 attack=Brute Force port=22 action=SUCCESSFUL sev=low
+2026-03-20T13:22:13+00:00 | 172.87.80.51 | Attack:XSS | port=22 | status=SUCCESSFUL | severity=medium | src=172.87.80.51 attack=XSS port=22 action=SUCCESSFUL sev=medium noise:vy71
+2026-03-20T23:45:00+00:00 | 154.63.223.12 | Attack:Port Scan | port=443 | status=DETECTED | severity=high | src=154.63.223.12 attack=Port Scan port=443 action=DETECTED sev=high
+2026-03-20T09:47:05+00:00 | 105.0.180.246 | Attack:SQL Injection | port=22 | status=DETECTED | severity=medium | src=105.0.180.246 attack=SQL Injection port=22 action=DETECTED sev=medium
+2026-03-20T07:01:10+00:00 | 212.208.218.186 | Attack:Credential Stuffing | port=445 | status=MITIGATED | severity=medium | src=212.208.218.186 attack=Credential Stuffing port=445 action=MITIGATED sev=medium
+2026-03-20T20:13:33+00:00 | 164.12.207.70 | Attack:Credential Stuffing | port=445 | status=DETECTED | severity=medium | src=164.12.207.70 attack=Credential Stuffing port=445 action=DETECTED sev=medium
+2026-03-20T20:41:14+00:00 | 197.48.214.101 | Attack:XSS | port=445 | status=DETECTED | severity=high | src=197.48.214.101 attack=XSS port=445 action=DETECTED sev=high
+2026-03-21T20:37:27+00:00 | 102.16.133.50 | Attack:Credential Stuffing | port=23 | status=BLOCKED | severity=medium | src=102.16.133.50 attack=Credential Stuffing port=23 action=BLOCKED sev=medium noise:ey05
+2026-03-21T12:32:46+00:00 | 135.123.196.9 | Attack:Port Scan | port=3306 | status=BLOCKED | severity=low | src=135.123.196.9 attack=Port Scan port=3306 action=BLOCKED sev=low
+2026-03-21T08:01:56+00:00 | 93.237.43.119 | Attack:Malware | port=3306 | status=DETECTED | severity=low | src=93.237.43.119 attack=Malware port=3306 action=DETECTED sev=low noise:jp84
+2026-03-20T06:26:29+00:00 | 52.17.28.74 | Attack:XSS | port=3306 | status=DETECTED | severity=medium | src=52.17.28.74 attack=XSS port=3306 action=DETECTED sev=medium
+2026-03-20T16:56:48+00:00 | 29.57.158.171 | Attack:Credential Stuffing | port=443 | status=DETECTED | severity=medium | src=29.57.158.171 attack=Credential Stuffing port=443 action=DETECTED sev=medium noise:cn62
+2026-03-20T20:06:58+00:00 | 194.99.80.241 | Attack:Phishing | port=22 | status=BLOCKED | severity=high | src=194.99.80.241 attack=Phishing port=22 action=BLOCKED sev=high
+2026-03-20T17:37:37+00:00 | 207.114.146.177 | Attack:Malware | port=1433 | status=DETECTED | severity=medium | src=207.114.146.177 attack=Malware port=1433 action=DETECTED sev=medium noise:ub89
+2026-03-21T03:17:45+00:00 | 39.23.36.32 | Attack:XSS | port=3389 | status=DETECTED | severity=low | src=39.23.36.32 attack=XSS port=3389 action=DETECTED sev=low
+2026-03-21T11:38:58+00:00 | 192.86.164.187 | Attack:Port Scan | port=23 | status=MITIGATED | severity=medium | src=192.86.164.187 attack=Port Scan port=23 action=MITIGATED sev=medium
+2026-03-20T22:54:59+00:00 | 184.237.242.110 | Attack:Phishing | port=22 | status=DETECTED | severity=low | src=184.237.242.110 attack=Phishing port=22 action=DETECTED sev=low noise:gh34
+2026-03-20T02:58:26+00:00 | 66.189.11.27 | Attack:Brute Force | port=443 | status=SUCCESSFUL | severity=low | src=66.189.11.27 attack=Brute Force port=443 action=SUCCESSFUL sev=low
+2026-03-20T08:44:09+00:00 | 133.97.251.19 | Attack:XSS | port=23 | status=DETECTED | severity=medium | src=133.97.251.19 attack=XSS port=23 action=DETECTED sev=medium

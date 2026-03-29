@@ -403,5 +403,625 @@
             }
         ],
         "timestamp": "2026-03-11 09:45:40"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 50,
+        "global_threat_score": 212,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 56.0,
+        "execution_time": 0.063,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 50
+            },
+            {
+                "process_id": 1,
+                "score": 60
+            },
+            {
+                "process_id": 2,
+                "score": 49
+            },
+            {
+                "process_id": 3,
+                "score": 53
+            }
+        ],
+        "processors_used": 4,
+        "timestamp": "21/03/2026, 04:13:32 AM"
+    },
+    {
+        "file_name": "smartlog_2f02d820-a5ad-448c-8fbb-73dfc748660f.txt",
+        "total_logs": 200,
+        "global_threat_score": 0,
+        "threat_level": "SAFE",
+        "threat_percentage": 0.0,
+        "execution_time": 0.072,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 0
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            },
+            {
+                "process_id": 2,
+                "score": 0
+            },
+            {
+                "process_id": 3,
+                "score": 0
+            }
+        ],
+        "processors_used": 4,
+        "timestamp": "21/03/2026, 04:14:10 AM"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 50,
+        "global_threat_score": 212,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 56.0,
+        "execution_time": 0.044,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 50
+            },
+            {
+                "process_id": 1,
+                "score": 60
+            },
+            {
+                "process_id": 2,
+                "score": 49
+            },
+            {
+                "process_id": 3,
+                "score": 53
+            }
+        ],
+        "processors_used": 4,
+        "timestamp": "21/03/2026, 04:14:31 AM"
+    },
+    {
+        "file_name": "smartlog_2f02d820-a5ad-448c-8fbb-73dfc748660f.txt",
+        "total_logs": 200,
+        "global_threat_score": 0,
+        "threat_level": "SAFE",
+        "threat_percentage": 0.0,
+        "execution_time": 0.142,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 0
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            },
+            {
+                "process_id": 2,
+                "score": 0
+            },
+            {
+                "process_id": 3,
+                "score": 0
+            }
+        ],
+        "processors_used": 4,
+        "timestamp": "21/03/2026, 04:15:25 AM"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 50,
+        "global_threat_score": 212,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 56.0,
+        "execution_time": 0.024,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 50
+            },
+            {
+                "process_id": 1,
+                "score": 60
+            },
+            {
+                "process_id": 2,
+                "score": 49
+            },
+            {
+                "process_id": 3,
+                "score": 53
+            }
+        ],
+        "processors_used": 4,
+        "timestamp": "21/03/2026, 04:36:57 AM"
+    },
+    {
+        "file_name": "0bf0454f-6558-4922-86fb-535fb059df24_92f153b0-8f39-4913-858c-7c775adae8bf_logs.txt",
+        "total_logs": 8,
+        "global_threat_score": 27,
+        "threat_level": "MEDIUM",
+        "threat_percentage": 50.0,
+        "execution_time": 0.008,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 2
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            },
+            {
+                "process_id": 2,
+                "score": 12
+            },
+            {
+                "process_id": 3,
+                "score": 13
+            }
+        ],
+        "processors_used": 4,
+        "timestamp": "21/03/2026, 04:38:35 AM"
+    },
+    {
+        "file_name": "smartlog_2f02d820-a5ad-448c-8fbb-73dfc748660f.txt",
+        "total_logs": 200,
+        "global_threat_score": 0,
+        "threat_level": "SAFE",
+        "threat_percentage": 0.0,
+        "execution_time": 0.115,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 0
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            },
+            {
+                "process_id": 2,
+                "score": 0
+            },
+            {
+                "process_id": 3,
+                "score": 0
+            }
+        ],
+        "processors_used": 4,
+        "timestamp": "21/03/2026, 04:44:01 AM"
+    },
+    {
+        "file_name": "51d0ad6f-faff-42b5-82fc-0b14e78e2671_smartlog_2f02d820-a5ad-448c-8fbb-73dfc748660f.txt",
+        "total_logs": 200,
+        "global_threat_score": 0,
+        "threat_level": "SAFE",
+        "threat_percentage": 0.0,
+        "execution_time": 0.016,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 0
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            },
+            {
+                "process_id": 2,
+                "score": 0
+            },
+            {
+                "process_id": 3,
+                "score": 0
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 04:45:21 AM"
+    },
+    {
+        "file_name": "smartlog_2f02d820-a5ad-448c-8fbb-73dfc748660f.txt",
+        "total_logs": 200,
+        "global_threat_score": 0,
+        "threat_level": "SAFE",
+        "threat_percentage": 0.0,
+        "execution_time": 0.03,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 0
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            },
+            {
+                "process_id": 2,
+                "score": 0
+            },
+            {
+                "process_id": 3,
+                "score": 0
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:17:19 AM"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 50,
+        "global_threat_score": 212,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 56.0,
+        "execution_time": 0.155,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 50
+            },
+            {
+                "process_id": 1,
+                "score": 60
+            },
+            {
+                "process_id": 2,
+                "score": 49
+            },
+            {
+                "process_id": 3,
+                "score": 53
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:18:11 AM"
+    },
+    {
+        "file_name": "smartlog_74904910-4f00-4f32-8220-6e707ade1101.txt",
+        "total_logs": 200,
+        "global_threat_score": 1938,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 100.0,
+        "execution_time": 0.024,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 495
+            },
+            {
+                "process_id": 1,
+                "score": 476
+            },
+            {
+                "process_id": 2,
+                "score": 508
+            },
+            {
+                "process_id": 3,
+                "score": 459
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:19:26 AM"
+    },
+    {
+        "file_name": "logs.txt",
+        "total_logs": 50,
+        "global_threat_score": 212,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 56.0,
+        "execution_time": 0.059,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 50
+            },
+            {
+                "process_id": 1,
+                "score": 60
+            },
+            {
+                "process_id": 2,
+                "score": 49
+            },
+            {
+                "process_id": 3,
+                "score": 53
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:20:24 AM"
+    },
+    {
+        "file_name": "smartlog_74904910-4f00-4f32-8220-6e707ade1101.txt",
+        "total_logs": 200,
+        "global_threat_score": 1938,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 100.0,
+        "execution_time": 0.017,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 495
+            },
+            {
+                "process_id": 1,
+                "score": 476
+            },
+            {
+                "process_id": 2,
+                "score": 508
+            },
+            {
+                "process_id": 3,
+                "score": 459
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:29:43 AM"
+    },
+    {
+        "file_name": "smartlog_74904910-4f00-4f32-8220-6e707ade1101.txt",
+        "total_logs": 200,
+        "global_threat_score": 1938,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 100.0,
+        "execution_time": 0.081,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 495
+            },
+            {
+                "process_id": 1,
+                "score": 476
+            },
+            {
+                "process_id": 2,
+                "score": 508
+            },
+            {
+                "process_id": 3,
+                "score": 459
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:31:22 AM"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 50,
+        "global_threat_score": 212,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 56.0,
+        "execution_time": 0.142,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 50
+            },
+            {
+                "process_id": 1,
+                "score": 60
+            },
+            {
+                "process_id": 2,
+                "score": 49
+            },
+            {
+                "process_id": 3,
+                "score": 53
+            }
+        ],
+        "processors_used": 4,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:32:02 AM"
+    },
+    {
+        "file_name": "logsgenerated.txt",
+        "total_logs": 50,
+        "global_threat_score": 212,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 56.0,
+        "execution_time": 0.007,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 61
+            },
+            {
+                "process_id": 1,
+                "score": 72
+            },
+            {
+                "process_id": 2,
+                "score": 79
+            }
+        ],
+        "processors_used": 3,
+        "file_format": "TXT",
+        "timestamp": "21/03/2026, 05:33:50 AM"
+    },
+    {
+        "file_name": "smartlog_8f3fb777-a429-4ab7-a64f-70343f5832a8.txt",
+        "total_logs": 300,
+        "global_threat_score": 0,
+        "threat_level": "SAFE",
+        "threat_percentage": 0.0,
+        "execution_time": 0.014,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 0
+            },
+            {
+                "process_id": 1,
+                "score": 0
+            },
+            {
+                "process_id": 2,
+                "score": 0
+            }
+        ],
+        "processors_used": 3,
+        "file_format": "TXT",
+        "timestamp": "22/03/2026, 03:05:05 AM"
+    },
+    {
+        "file_name": "smartlog_24713066-1ea6-4614-b6e1-87c366cc692b.txt",
+        "total_logs": 200,
+        "global_threat_score": 59,
+        "threat_level": "HIGH",
+        "threat_percentage": 29.5,
+        "execution_time": 0.014,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 15
+            },
+            {
+                "process_id": 1,
+                "score": 20
+            },
+            {
+                "process_id": 2,
+                "score": 24
+            }
+        ],
+        "processors_used": 3,
+        "file_format": "TXT",
+        "timestamp": "22/03/2026, 03:05:43 AM"
+    },
+    {
+        "file_name": "smartlog_996c08b0-f505-4a06-a087-4c0c63b20018.txt",
+        "total_logs": 1000,
+        "global_threat_score": 382,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 26.4,
+        "execution_time": 0.032,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 134
+            },
+            {
+                "process_id": 1,
+                "score": 117
+            },
+            {
+                "process_id": 2,
+                "score": 131
+            }
+        ],
+        "processors_used": 3,
+        "file_format": "TXT",
+        "timestamp": "22/03/2026, 03:06:11 AM"
+    },
+    {
+        "file_name": "smartlog_996c08b0-f505-4a06-a087-4c0c63b20018.txt",
+        "total_logs": 1000,
+        "global_threat_score": 382,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 26.4,
+        "execution_time": 0.033,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 134
+            },
+            {
+                "process_id": 1,
+                "score": 117
+            },
+            {
+                "process_id": 2,
+                "score": 131
+            }
+        ],
+        "processors_used": 3,
+        "file_format": "TXT",
+        "timestamp": "22/03/2026, 03:06:52 AM"
+    },
+    {
+        "file_name": "smartlog_b592042d-3c07-4089-be78-b96f88b4ff10.txt",
+        "total_logs": 500,
+        "global_threat_score": 209,
+        "threat_level": "CRITICAL",
+        "threat_percentage": 27.4,
+        "execution_time": 0.018,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 70
+            },
+            {
+                "process_id": 1,
+                "score": 67
+            },
+            {
+                "process_id": 2,
+                "score": 72
+            }
+        ],
+        "processors_used": 3,
+        "file_format": "TXT",
+        "timestamp": "22/03/2026, 03:07:18 AM"
+    },
+    {
+        "file_name": "smartlog_6d261bf0-81fb-4490-a55e-2355163edd08.txt",
+        "total_logs": 300,
+        "global_threat_score": 76,
+        "threat_level": "HIGH",
+        "threat_percentage": 25.33,
+        "execution_time": 0.009,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 38
+            },
+            {
+                "process_id": 1,
+                "score": 38
+            }
+        ],
+        "processors_used": 2,
+        "file_format": "TXT",
+        "timestamp": "26/03/2026, 06:16:03 AM"
+    },
+    {
+        "file_name": "smartlog_6d261bf0-81fb-4490-a55e-2355163edd08.json",
+        "total_logs": 300,
+        "global_threat_score": 76,
+        "threat_level": "HIGH",
+        "threat_percentage": 25.33,
+        "execution_time": 0.0,
+        "process_wise_scores": [
+            {
+                "process_id": 0,
+                "score": 38
+            },
+            {
+                "process_id": 1,
+                "score": 38
+            }
+        ],
+        "processors_used": 2,
+        "file_format": "JSON",
+        "timestamp": "26/03/2026, 06:16:36 AM"
     }
 ]

@@ -1,0 +1,401 @@
+/*
+ * Theme.css — CyberThreatMPI global theme system
+ *
+ * Strategy:
+ *   Default (no attribute)  = dark mode (original design)
+ *   [data-theme="dark"]     = dark mode (explicit)
+ *   [data-theme="light"]    = bright tactical / light mode
+ *
+ * Import this ONCE in index.js or App.js (before all other CSS).
+ * Every page's CSS variables are overridden here.
+ * Accent colors, threat colours and chart data colours stay the same in both themes.
+ */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DARK MODE  (default — same as original)
+   ═══════════════════════════════════════════════════════════════════════════ */
+:root,
+[data-theme="dark"] {
+  /* Global transition for theme switch */
+  --theme-t: background 0.35s ease, color 0.35s ease,
+             border-color 0.35s ease, box-shadow 0.35s ease;
+
+  /* ── App shell (App.js) ── */
+  --app-bg:          #050a12;
+  --app-sidebar:     #080d14;
+  --app-topbar:      rgba(8,13,20,0.95);
+  --app-border:      rgba(0,229,255,0.08);
+  --app-text:        #e2e8f0;
+  --app-dim:         rgba(226,232,240,0.45);
+  --app-ghost:       rgba(226,232,240,0.18);
+  --app-card:        #0c1420;
+  --app-hover:       rgba(0,229,255,0.04);
+  --app-input-bg:    rgba(0,0,0,0.4);
+  --app-input-text:  #e2e8f0;
+
+  /* ── Analytics ── */
+  --an-bg:    #080d14;
+  --an-card:  #0c1420;
+  --an-border:rgba(0,229,255,0.1);
+  --an-text:  #e2e8f0;
+  --an-dim:   rgba(226,232,240,0.45);
+  --an-ghost: rgba(226,232,240,0.18);
+  --an-chart-grid: rgba(255,255,255,0.05);
+  --an-chart-tick: rgba(255,255,255,0.3);
+
+  /* ── LogUpload ── */
+  --lu-bg:    #080d14;
+  --lu-card:  #0c1420;
+  --lu-border:rgba(0,229,255,0.12);
+  --lu-text:  #e2e8f0;
+  --lu-dim:   rgba(226,232,240,0.45);
+  --lu-ghost: rgba(226,232,240,0.18);
+  --lu-term:  #030810;
+
+  /* ── PerformanceLab ── */
+  --pl-bg:    #080d14;
+  --pl-card:  #0c1420;
+  --pl-border:rgba(0,229,255,0.1);
+  --pl-text:  #e2e8f0;
+  --pl-dim:   rgba(226,232,240,0.45);
+  --pl-ghost: rgba(226,232,240,0.18);
+
+  /* ── Settings ── */
+  --st-bg:    #080d14;
+  --st-card:  #0c1420;
+  --st-border:rgba(0,229,255,0.1);
+  --st-text:  #e2e8f0;
+  --st-dim:   rgba(226,232,240,0.45);
+  --st-ghost: rgba(226,232,240,0.18);
+
+  /* ── History ── */
+  --hy-bg:    #080d14;
+  --hy-card:  #0c1420;
+  --hy-border:rgba(0,229,255,0.1);
+  --hy-text:  #e2e8f0;
+  --hy-dim:   rgba(226,232,240,0.45);
+  --hy-ghost: rgba(226,232,240,0.18);
+
+  /* ── Scrollbar ── */
+  scrollbar-color: rgba(0,229,255,0.2) transparent;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LIGHT MODE  — "Bright Tactical"
+   Feels like a military ops center in daylight: crisp, high-contrast,
+   cool slate backgrounds, cyan accents still glow.
+   ═══════════════════════════════════════════════════════════════════════════ */
+[data-theme="light"] {
+
+  /* ── App shell ── */
+  --app-bg:          #eef2f7;
+  --app-sidebar:     #ffffff;
+  --app-topbar:      rgba(255,255,255,0.96);
+  --app-border:      rgba(0,120,200,0.14);
+  --app-text:        #0f1923;
+  --app-dim:         rgba(15,25,35,0.65);
+  --app-ghost:       rgba(15,25,35,0.35);
+  --app-card:        #ffffff;
+  --app-hover:       rgba(0,120,200,0.05);
+  --app-input-bg:    rgba(0,0,0,0.05);
+  --app-input-text:  #0f1923;
+
+  /* ── Analytics ── */
+  --an-bg:    #eef2f7;
+  --an-card:  #ffffff;
+  --an-border:rgba(0,120,200,0.14);
+  --an-text:  #0f1923;
+  --an-dim:   rgba(15,25,35,0.65);
+  --an-ghost: rgba(15,25,35,0.35);
+  --an-chart-grid: rgba(0,0,0,0.06);
+  --an-chart-tick: rgba(0,0,0,0.4);
+
+  /* ── LogUpload ── */
+  --lu-bg:    #eef2f7;
+  --lu-card:  #ffffff;
+  --lu-border:rgba(0,120,200,0.16);
+  --lu-text:  #0f1923;
+  --lu-dim:   rgba(15,25,35,0.65);
+  --lu-ghost: rgba(15,25,35,0.35);
+  --lu-term:  #0f1923;
+
+  /* ── PerformanceLab ── */
+  --pl-bg:    #eef2f7;
+  --pl-card:  #ffffff;
+  --pl-border:rgba(0,120,200,0.14);
+  --pl-text:  #0f1923;
+  --pl-dim:   rgba(15,25,35,0.65);
+  --pl-ghost: rgba(15,25,35,0.35);
+
+  /* ── Settings ── */
+  --st-bg:    #eef2f7;
+  --st-card:  #ffffff;
+  --st-border:rgba(0,120,200,0.14);
+  --st-text:  #0f1923;
+  --st-dim:   rgba(15,25,35,0.65);
+  --st-ghost: rgba(15,25,35,0.35);
+
+  /* ── History ── */
+  --hy-bg:    #eef2f7;
+  --hy-card:  #ffffff;
+  --hy-border:rgba(0,120,200,0.14);
+  --hy-text:  #0f1923;
+  --hy-dim:   rgba(15,25,35,0.65);
+  --hy-ghost: rgba(15,25,35,0.35);
+
+  scrollbar-color: rgba(0,120,200,0.25) transparent;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   APPLY VARS TO EACH PAGE'S EXISTING CSS CLASSES
+   Each page's CSS uses its own --pl-*, --st-*, --hy-* etc variables.
+   We patch them here so they pick up the theme without touching original CSS.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── Smooth theme transition on everything ──────────────────────────────── */
+*, *::before, *::after {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+              color 0.3s ease, box-shadow 0.3s ease !important;
+}
+/* Don't animate transform — breaks layout animations */
+*[class*="spin"], *[class*="rotate"], *[class*="pulse"],
+*[class*="Fade"], *[class*="Slide"], *[class*="anim"] {
+  transition: none !important;
+}
+
+/* ─── Page backgrounds ───────────────────────────────────────────────────── */
+[data-theme="light"] .pl-page,
+[data-theme="light"] .an-page,
+[data-theme="light"] .lu-page,
+[data-theme="light"] .st-page,
+[data-theme="light"] .hy-page { background: var(--app-bg); }
+
+/* ─── Cards ──────────────────────────────────────────────────────────────── */
+[data-theme="light"] .pl-chart-card,
+[data-theme="light"] .pl-gauge-card,
+[data-theme="light"] .an-card,
+[data-theme="light"] .lu-res-card,
+[data-theme="light"] .lu-idle-layout .lu-info-panel,
+[data-theme="light"] .lu-dropzone,
+[data-theme="light"] .lu-terminal,
+[data-theme="light"] .lu-progress-page,
+[data-theme="light"] .lu-analysis-layout,
+[data-theme="light"] .st-card,
+[data-theme="light"] .st-simulator,
+[data-theme="light"] .hy-chart-card,
+[data-theme="light"] .hy-stat-card,
+[data-theme="light"] .hy-table-wrap,
+[data-theme="light"] .hy-tl-card,
+[data-theme="light"] .hy-grid-card,
+[data-theme="light"] .hy-drawer,
+[data-theme="light"] .hy-modal {
+  background: var(--app-card);
+  border-color: var(--app-border);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+/* ─── Sidebar ────────────────────────────────────────────────────────────── */
+[data-theme="light"] .st-nav {
+  background: rgba(255,255,255,0.7);
+  border-right-color: var(--app-border);
+}
+[data-theme="light"] .st-nav-item { color: rgba(15,25,35,0.45); }
+[data-theme="light"] .st-nav-active { color: #0078c8 !important; background: rgba(0,120,200,0.07) !important; }
+[data-theme="light"] .st-nav-bar { background: #0078c8; box-shadow: 0 0 8px #0078c8; }
+
+/* ─── Text colours ───────────────────────────────────────────────────────── */
+[data-theme="light"] .pl-title,
+[data-theme="light"] .an-page-title,
+[data-theme="light"] .lu-title,
+[data-theme="light"] .st-title,
+[data-theme="light"] .hy-title { color: var(--app-text); }
+
+[data-theme="light"] .pl-subtitle,
+[data-theme="light"] .an-page-sub,
+[data-theme="light"] .lu-subtitle,
+[data-theme="light"] .st-subtitle,
+[data-theme="light"] .hy-subtitle { color: var(--app-ghost); }
+
+[data-theme="light"] .pl-chart-title,
+[data-theme="light"] .an-card-title,
+[data-theme="light"] .lu-res-card-title,
+[data-theme="light"] .st-card-title,
+[data-theme="light"] .hy-chart-title { color: var(--app-ghost); }
+
+/* ─── Tables ─────────────────────────────────────────────────────────────── */
+[data-theme="light"] .hy-th { color: var(--app-ghost); border-bottom-color: var(--app-border); }
+[data-theme="light"] .hy-tr { border-bottom-color: rgba(0,0,0,0.04); }
+[data-theme="light"] .hy-tr:hover { background: rgba(0,120,200,0.03); }
+[data-theme="light"] .hy-filename { color: var(--app-text); }
+[data-theme="light"] .hy-td-ts { color: rgba(15,25,35,0.35); }
+
+/* ─── Inputs & controls ──────────────────────────────────────────────────── */
+[data-theme="light"] .st-select,
+[data-theme="light"] .st-url-input,
+[data-theme="light"] .st-num-input,
+[data-theme="light"] .st-kw-add-input,
+[data-theme="light"] .st-kw-score-input,
+[data-theme="light"] .st-sim-input,
+[data-theme="light"] .st-import-textarea,
+[data-theme="light"] .hy-search {
+  background: rgba(0,0,0,0.04);
+  color: var(--app-text);
+  border-color: var(--app-border);
+}
+[data-theme="light"] .hy-search::placeholder { color: var(--app-ghost); }
+
+[data-theme="light"] .st-num-input-wrap,
+[data-theme="light"] .st-url-input,
+[data-theme="light"] .hy-search-wrap {
+  background: rgba(255,255,255,0.8);
+  border-color: var(--app-border);
+}
+
+/* ─── Row separators ─────────────────────────────────────────────────────── */
+[data-theme="light"] .st-row { border-bottom-color: rgba(0,0,0,0.04); }
+[data-theme="light"] .st-row-label { color: var(--app-text); }
+[data-theme="light"] .st-row-desc { color: var(--app-ghost); }
+
+/* ─── Buttons ────────────────────────────────────────────────────────────── */
+[data-theme="light"] .pl-ctrl-btn,
+[data-theme="light"] .st-save-btn,
+[data-theme="light"] .hy-hdr-btn,
+[data-theme="light"] .hy-filter-btn,
+[data-theme="light"] .hy-view-btn,
+[data-theme="light"] .hy-pg-btn {
+  border-color: var(--app-border);
+  background: rgba(255,255,255,0.6);
+  color: rgba(15,25,35,0.5);
+}
+[data-theme="light"] .pl-ctrl-btn:hover,
+[data-theme="light"] .hy-hdr-btn:hover { color: #0078c8; border-color: rgba(0,120,200,0.35); background: rgba(0,120,200,0.07); }
+
+/* ─── Keyword table ──────────────────────────────────────────────────────── */
+[data-theme="light"] .st-kw-row { border-bottom-color: rgba(0,0,0,0.04); }
+[data-theme="light"] .st-kw-word { color: var(--app-text); }
+[data-theme="light"] .st-kw-bar-track { background: rgba(0,0,0,0.06); }
+
+/* ─── Terminal ───────────────────────────────────────────────────────────── */
+[data-theme="light"] .lu-terminal {
+  background: #f8fafc;
+  border: 1px solid rgba(0,120,200,0.14);
+}
+[data-theme="light"] .lu-term-text { color: #1a3a5c; }
+[data-theme="light"] .lu-term-prompt { color: #0078c8; }
+
+/* ─── Charts — recharts axes ─────────────────────────────────────────────── */
+[data-theme="light"] .recharts-cartesian-grid line { stroke: rgba(0,0,0,0.06); }
+[data-theme="light"] .recharts-text { fill: rgba(0,0,0,0.4) !important; }
+
+/* ─── Scanlines — tone down in light mode ────────────────────────────────── */
+[data-theme="light"] .pl-page::before,
+[data-theme="light"] .st-scanline,
+[data-theme="light"] .hy-scanline { opacity: 0; }
+
+/* ─── Tooltip ────────────────────────────────────────────────────────────── */
+[data-theme="light"] .pl-tooltip,
+[data-theme="light"] .an-tooltip,
+[data-theme="light"] .lu-tip,
+[data-theme="light"] .hy-tooltip {
+  background: #ffffff;
+  border-color: rgba(0,120,200,0.25);
+  color: var(--app-text);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+/* ─── Modals / Drawers ───────────────────────────────────────────────────── */
+[data-theme="light"] .hy-drawer,
+[data-theme="light"] .hy-modal {
+  background: #ffffff;
+  border-left-color: var(--app-border);
+}
+[data-theme="light"] .hy-modal-overlay,
+[data-theme="light"] .hy-drawer-overlay {
+  background: rgba(200,210,220,0.6);
+  backdrop-filter: blur(6px);
+}
+
+/* ─── Dropzone ───────────────────────────────────────────────────────────── */
+[data-theme="light"] .lu-dropzone {
+  background: #f4f8fc;
+  border-color: rgba(0,120,200,0.2);
+}
+[data-theme="light"] .lu-dz-title { color: var(--app-text); }
+[data-theme="light"] .lu-dz-sub   { color: var(--app-ghost); }
+
+/* ─── Badge strip row backgrounds ───────────────────────────────────────────*/
+[data-theme="light"] .lu-step {
+  background: rgba(0,0,0,0.02);
+  border-color: rgba(0,120,200,0.1);
+}
+
+/* ─── Performance Lab specific ───────────────────────────────────────────── */
+[data-theme="light"] .pl-tabs { border-bottom-color: var(--app-border); }
+[data-theme="light"] .pl-tab  { color: rgba(15,25,35,0.4); }
+[data-theme="light"] .pl-tab:hover { color: rgba(15,25,35,0.7); }
+[data-theme="light"] .pl-mat-cell { border-color: rgba(0,0,0,0.03); }
+[data-theme="light"] .pl-proc-table th { color: rgba(15,25,35,0.4); border-bottom-color: var(--app-border); }
+[data-theme="light"] .pl-proc-row:hover { background: rgba(0,120,200,0.03); }
+[data-theme="light"] .pl-bench-bar-track { background: rgba(0,0,0,0.07); }
+[data-theme="light"] .pl-memmap-bar { border-radius: 6px; overflow: hidden; }
+[data-theme="light"] .pl-memmap-total {
+  background: rgba(0,0,0,0.03);
+  border-color: var(--app-border);
+  color: var(--app-dim);
+}
+
+/* ─── History page specific ──────────────────────────────────────────────── */
+[data-theme="light"] .hy-tl-line { background: rgba(0,120,200,0.12); }
+[data-theme="light"] .hy-proc-track { background: rgba(0,0,0,0.07); }
+[data-theme="light"] .hy-raw-row { border-bottom-color: rgba(0,0,0,0.04); }
+[data-theme="light"] .hy-raw-key { color: rgba(15,25,35,0.4); }
+[data-theme="light"] .hy-raw-val { color: var(--app-dim); }
+[data-theme="light"] .hy-cmp-field { color: rgba(15,25,35,0.4); }
+[data-theme="light"] .hy-cmp-row { border-bottom-color: rgba(0,0,0,0.04); }
+[data-theme="light"] .hy-modal-header { border-bottom-color: var(--app-border); }
+
+/* ─── Settings page specific ─────────────────────────────────────────────── */
+[data-theme="light"] .st-section-title {
+  color: rgba(15,25,35,0.4);
+  border-bottom-color: var(--app-border);
+}
+[data-theme="light"] .st-threshold-row { border-bottom-color: rgba(0,0,0,0.04); }
+[data-theme="light"] .st-health {
+  background: rgba(0,0,0,0.03);
+  border-color: var(--app-border);
+}
+[data-theme="light"] .st-danger-item {
+  background: rgba(255,23,68,0.03);
+  border-color: rgba(255,23,68,0.15);
+}
+[data-theme="light"] .st-core-idle {
+  background: rgba(0,0,0,0.04);
+  border-color: rgba(0,0,0,0.08);
+}
+
+/* ─── App shell (topbar, sidebar) ────────────────────────────────────────── */
+[data-theme="light"] .app-sidebar {
+  background: var(--app-sidebar) !important;
+  border-right-color: var(--app-border) !important;
+}
+[data-theme="light"] .app-topbar {
+  background: var(--app-topbar) !important;
+  border-bottom-color: var(--app-border) !important;
+  backdrop-filter: blur(10px);
+}
+[data-theme="light"] .app-nav-item { color: rgba(15,25,35,0.45) !important; }
+[data-theme="light"] .app-nav-item:hover { background: rgba(0,120,200,0.06) !important; color: #0078c8 !important; }
+[data-theme="light"] .app-nav-item.active {
+  background: rgba(0,120,200,0.1) !important;
+  color: #0078c8 !important;
+  border-left-color: #0078c8 !important;
+}
+[data-theme="light"] .app-logo-text { color: var(--app-text) !important; }
+[data-theme="light"] .app-content { background: var(--app-bg) !important; }
+[data-theme="light"] .app-search input {
+  background: rgba(0,0,0,0.05) !important;
+  color: var(--app-text) !important;
+  border-color: var(--app-border) !important;
+}
