@@ -10,6 +10,8 @@ import PerformanceLab from "./PerformanceLab";
 import LogUpload     from "./LogUpload";
 import Settings      from './Settings';
 import History       from './History';
+import Threatviz     from './Threatviz';
+import LiveMonitoring from './LiveMonitoring';
 
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -41,7 +43,7 @@ const NAV_ITEMS = [
   { id:"performance", icon:"◈", label:"Performance Lab" },
   { id:"upload",      icon:"↑", label:"Log Upload"      },
   { id:"monitoring",  icon:"◉", label:"Live Monitoring" },
-  { id:"nodeviz",     icon:"⬡", label:"Node Viz"        },
+  { id:"nodeviz",     icon:"⬡", label:"Threat Workbench" },
   { id:"history",     icon:"⟳", label:"History"         },
   { id:"settings",    icon:"⚙", label:"Settings"        },
 ];
@@ -568,6 +570,8 @@ export default function App() {
   // ── Page render ───────────────────────────────────────────────────────────────
   const renderPage = () => {
     switch (activePage) {
+      case "monitoring":  return <LiveMonitoring/>;
+      case "nodeviz":     return <Threatviz/>;
       case "upload":      return <LogUpload/>;
       case "analytics":   return <Analytics/>;
       case "performance": return <PerformanceLab/>;
